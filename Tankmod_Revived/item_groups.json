@@ -1,0 +1,105 @@
+[
+  {
+    "type": "item_group",
+    "id": "mil_hw",
+    "items": [
+      [ "electric_primer_120mm", 2 ],
+      [ "primer_155mm", 1 ],
+      [ "25mm_apds", 1 ],
+      [ "25mm_hei", 1 ],
+      [ "belt25mm", 1 ],
+      [ "120mm_usable_heat", 3 ],
+      [ "120mm_usable_ap", 1 ],
+      [ "155mm_frag", 2 ],
+      [ "155mm_heat", 1 ]
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "military",
+    "items": [
+      [ "electric_primer_120mm", 2 ],
+      [ "primer_155mm", 1 ],
+      [ "atgm_launcher", 1 ],
+      [ "25mm_apds", 1 ],
+      [ "25mm_hei", 1 ],
+      [ "belt25mm", 1 ],
+      [ "120mm_usable_heat", 3 ],
+      [ "120mm_usable_ap", 1 ],
+      [ "155mm_frag", 2 ],
+      [ "155mm_heat", 1 ]
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "rare",
+    "items": [
+      [ "electric_primer_120mm", 1 ],
+      [ "primer_155mm", 1 ],
+      [ "25mm_apds", 1 ],
+      [ "25mm_hei", 1 ],
+      [ "belt25mm", 1 ],
+      [ "120mm_usable_heat", 3 ],
+      [ "120mm_usable_ap", 1 ],
+      [ "155mm_frag", 2 ],
+      [ "155mm_heat", 1 ]
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "helicopter",
+    "items": [ [ "electric_primer_120mm", 2 ], [ "primer_155mm", 1 ], [ "25mm_apds", 2 ], [ "25mm_hei", 2 ], [ "belt25mm", 3 ] ]
+  },
+  {
+    "type": "item_group",
+    "id": "manuals",
+    "items": [ [ "textbook_launcher", 1 ] ]
+  },
+  {
+    "type": "item_group",
+    "id": "book_gunref",
+    "items": [ [ "textbook_launcher", 1 ] ]
+  },
+  {
+    "type": "item_group",
+    "id": "mil_surplus",
+    "items": [ [ "textbook_launcher", 1 ] ]
+  },
+  {
+    "type": "item_group",
+    "id": "book_military",
+    "items": [ [ "textbook_launcher", 5 ] ]
+  },
+  {
+    "id": "m1_abrams_ammo_rack",
+    "type": "item_group",
+    "subtype": "collection",
+    "entries": [
+      { "item": "120mm_usable_heat", "count": [ 0, 5 ], "prob": 75 },
+      { "item": "120mm_usable_ap", "count": [ 0, 5 ], "prob": 75 },
+      { "item": "120mm_casing", "count": [ 0, 5 ], "prob": 90 },
+      { "item": "electric_primer_120mm", "prob": 75 }
+    ]
+  },
+  {
+    "id": "m109_ammo_rack",
+    "type": "item_group",
+    "subtype": "collection",
+    "entries": [
+      { "item": "155mm_frag", "count": [ 0, 6 ], "prob": 75 },
+      { "item": "155mm_heat", "count": [ 0, 2 ], "prob": 75 },
+      { "item": "primer_155mm", "prob": 75 }
+    ]
+  },
+  {
+    "id": "m2_bradley_ammo_rack",
+    "type": "item_group",
+    "subtype": "collection",
+    "entries": [
+      { "item": "atgm_heat", "count": [ 1, 2 ], "prob": 30 },
+      {
+        "distribution": [ { "item": "25mm_hei", "container-item": "belt25mm", "prob": 50, "charges": 100 }, { "item": "25mm_apds", "container-item": "belt25mm", "prob": 50, "charges": 100 } ], "prob": 30
+      }
+    ]
+  }
+]
