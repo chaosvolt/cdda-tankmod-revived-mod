@@ -22,6 +22,18 @@
   },
   {
     "type": "vehicle_part",
+    "id": "mounted_tank_manual_105mm",
+    "looks_like": "mounted_tank_manual",
+    "copy-from": "turret_tank",
+    "name": "105mm tank gun",
+    "range": 25,
+    "item": "tank_gun_manual_105mm",
+    "size": 10,
+    "breaks_into": [ { "item": "tank_gun_manual_105mm", "prob": 50 } ],
+    "requirements": { "install": { "skills": [ [ "mechanics", 5 ], [ "launcher", 2 ] ] } }
+  },
+  {
+    "type": "vehicle_part",
     "id": "mounted_howitzer",
     "copy-from": "turret_tank",
     "name": "155mm howitzer",

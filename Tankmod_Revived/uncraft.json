@@ -12,7 +12,7 @@
       [ [ "gunpowder_artillery", 8000 ] ],
       [ [ "impact_fuze", 1 ] ],
       [ [ "scrap", 8 ] ],
-      [ [ "120mm_casing", 1 ] ],
+      [ [ "120mm_case_base", 1 ] ],
       [ [ "electric_primer_120mm", 1 ] ]
     ],
     "flags": [ "UNCRAFT_SINGLE_CHARGE" ]
@@ -28,7 +28,7 @@
     "components": [
       [ [ "gunpowder_artillery", 8000 ] ],
       [ [ "scrap", 24 ] ],
-      [ [ "120mm_casing", 1 ] ],
+      [ [ "120mm_case_base", 1 ] ],
       [ [ "electric_primer_120mm", 1 ] ]
     ],
     "flags": [ "UNCRAFT_SINGLE_CHARGE" ]

@@ -18,16 +18,20 @@
     "color": "dark_gray",
     "aggression": 50,
     "morale": 100,
+    "melee_dice": 5,
+    "melee_dice_sides": 10,
     "armor_bash": 75,
     "armor_cut": 50,
     "armor_bullet": 100,
+    "armor_acid": 10,
+    "armor_fore": 5,
     "vision_day": 50,
     "starting_ammo": { "120mm_usable_heat": 5, "50bmg": 100 },
     "path_settings": { "max_dist": 20 },
     "special_attacks": [
       {
         "type": "gun",
-        "cooldown": 10,
+        "cooldown": 30,
         "move_cost": 150,
         "gun_type": "tank_gun_auto_monster",
         "ammo_type": "120mm_usable",
@@ -45,7 +49,7 @@
       },
       {
         "type": "gun",
-        "cooldown": 3,
+        "cooldown": 15,
         "move_cost": 150,
         "gun_type": "m2browning",
         "ammo_type": "50bmg",
@@ -63,7 +67,7 @@
       }
     ],
     "death_function": [ "EXPLODE", "BROKEN" ],
-    "flags": [ "WARM", "BASHES", "ACIDPROOF", "FIREPROOF", "HIT_AND_RUN", "NOHEAD", "PRIORITIZE_TARGETS", "PATH_AVOID_DANGER_2", "DESTROYS", "SEES", "HEARS", "ELECTRONIC", "COLDPROOF", "NO_BREATHE", "PATH_AVOID_DANGER_1", "LOUDMOVES", "DROPS_AMMO" ]
+    "flags": [ "WARM", "BASHES", "HIT_AND_RUN", "NOHEAD", "PRIORITIZE_TARGETS", "PATH_AVOID_DANGER_2", "DESTROYS", "SEES", "HEARS", "ELECTRONIC", "COLDPROOF", "NO_BREATHE", "PATH_AVOID_DANGER_1", "LOUDMOVES", "DROPS_AMMO" ]
   },
   {
     "id": "tank_gun_auto",
