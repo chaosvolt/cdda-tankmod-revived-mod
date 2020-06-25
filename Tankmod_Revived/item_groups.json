@@ -133,7 +133,7 @@
     "subtype": "distribution",
     "id": "map_extra_casings_tank_dummy",
     "//": "reproduces the normal results of map_extra_casings itemgroup, since the contents lack weights, the list is short, and the desired chance of spawning artillery casings is low.",
-    "entries": [ { "item": "rag_bloody" }, { "item": "cigar_butt" }, { "item": "cig_butt" }, { "item": "can_drink_unsealed" } ]
+    "entries": [ { "item": "rag_bloody" }, { "item": "cigar_butt" }, { "item": "cig_butt" }, { "item": "can_drink" } ]
   },
   {
     "id": "m1_abrams_ammo_rack",
