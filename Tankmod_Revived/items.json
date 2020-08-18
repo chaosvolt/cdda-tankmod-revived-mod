@@ -20,7 +20,7 @@
     "capacity": 100,
     "count": 50,
     "linkage": "ammolink25mm",
-    "pocket_data": [ { "pocket_type": "MAGAZINE", "ammo_restriction": { "25mm": 100 } } ]
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "25mm": 100 } } ]
   },
   {
     "id": "ammolink25mm",
@@ -465,7 +465,15 @@
     "reload": 700,
     "loudness": 175,
     "ups_charges": 10,
-    "magazines": [ [ "25mm", [ "belt25mm" ] ] ]
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "100 L",
+        "max_contains_weight": "100 kg",
+        "item_restriction": [ "belt25mm" ]
+      }
+    ]
   },
   {
     "id": "tank_gun_manual",
