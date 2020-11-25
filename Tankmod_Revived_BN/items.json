@@ -19,8 +19,7 @@
     "default_ammo": "25mm_hei",
     "capacity": 100,
     "count": 50,
-    "linkage": "ammolink25mm",
-    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "25mm": 100 } } ]
+    "linkage": "ammolink25mm"
   },
   {
     "id": "ammolink25mm",
@@ -48,7 +47,7 @@
     "bashing": 1,
     "ammo_type": "25mm",
     "casing": "25mm_casing",
-    "damage": { "damage_type": "bullet", "amount": 330, "armor_penetration": 75 },
+    "damage": { "damage_type": "stab", "amount": 330, "armor_penetration": 75 },
     "range": 60,
     "dispersion": 150,
     "recoil": 49500,
@@ -56,7 +55,7 @@
     "flags": [ "IRREPLACEABLE_CONSUMABLE" ],
     "effects": [ "CUSTOM_EXPLOSION" ],
     "explode_in_fire": true,
-    "explosion": { "power": 35, "distance_factor": 0.4, "fire": true }
+    "explosion": { "damage": 35, "radius": 1, "fire": true }
   },
   {
     "type": "AMMO",
@@ -74,7 +73,7 @@
     "bashing": 1,
     "ammo_type": "25mm",
     "casing": "25mm_casing",
-    "damage": { "damage_type": "bullet", "amount": 350, "armor_penetration": 250 },
+    "damage": { "damage_type": "stab", "amount": 350, "armor_penetration": 250 },
     "range": 60,
     "dispersion": 125,
     "recoil": 43750,
@@ -97,7 +96,7 @@
     "bashing": 1,
     "ammo_type": "25mm",
     "casing": "25mm_casing",
-    "damage": { "damage_type": "bullet", "amount": 260, "armor_penetration": 15 },
+    "damage": { "damage_type": "stab", "amount": 260, "armor_penetration": 15 },
     "range": 30,
     "dispersion": 200,
     "recoil": 52000,
@@ -111,7 +110,7 @@
     "name": { "str_sp": "reloaded 25x137mm, black powder" },
     "proportional": {
       "price": 0.3,
-      "damage": { "damage_type": "bullet", "amount": 0.76, "armor_penetration": 0.5 },
+      "damage": { "damage_type": "stab", "amount": 0.76, "armor_penetration": 0.5 },
       "recoil": 0.76,
       "dispersion": 1.2
     },
@@ -134,7 +133,7 @@
     "bashing": 1,
     "ammo_type": "105mm",
     "casing": "105mm_casing",
-    "damage": { "damage_type": "bullet", "amount": 2500, "armor_penetration": 400 },
+    "damage": { "damage_type": "stab", "amount": 2500, "armor_penetration": 400 },
     "range": 75,
     "dispersion": 150,
     "recoil": 375000,
@@ -142,7 +141,7 @@
     "flags": [ "IRREPLACEABLE_CONSUMABLE" ],
     "effects": [ "CUSTOM_EXPLOSION" ],
     "explode_in_fire": true,
-    "explosion": { "power": 5000, "distance_factor": 0.4 }
+    "explosion": { "damage": 5000, "radius": 2 }
   },
   {
     "type": "AMMO",
@@ -161,7 +160,7 @@
     "bashing": 1,
     "ammo_type": "105mm",
     "casing": "105mm_casing",
-    "damage": { "damage_type": "bullet", "amount": 2000, "armor_penetration": 500 },
+    "damage": { "damage_type": "stab", "amount": 2000, "armor_penetration": 500 },
     "range": 85,
     "dispersion": 175,
     "recoil": 350000,
@@ -184,7 +183,7 @@
     "bashing": 1,
     "ammo_type": "105mm",
     "casing": "105mm_casing",
-    "damage": { "damage_type": "bullet", "amount": 1200, "armor_penetration": 22 },
+    "damage": { "damage_type": "stab", "amount": 1200, "armor_penetration": 22 },
     "range": 50,
     "dispersion": 250,
     "recoil": 300000,
@@ -198,7 +197,7 @@
     "name": { "str_sp": "makeshift 105mm slug, black powder" },
     "proportional": {
       "price": 0.3,
-      "damage": { "damage_type": "bullet", "amount": 0.76, "armor_penetration": 0.5 },
+      "damage": { "damage_type": "stab", "amount": 0.76, "armor_penetration": 0.5 },
       "recoil": 0.76,
       "dispersion": 1.2
     },
@@ -220,7 +219,7 @@
     "bashing": 1,
     "ammo_type": "120mm_usable",
     "casing": "120mm_case_base",
-    "damage": { "damage_type": "bullet", "amount": 4500, "armor_penetration": 600 },
+    "damage": { "damage_type": "stab", "amount": 4500, "armor_penetration": 600 },
     "range": 90,
     "dispersion": 200,
     "recoil": 900000,
@@ -228,7 +227,7 @@
     "flags": [ "IRREPLACEABLE_CONSUMABLE" ],
     "effects": [ "CUSTOM_EXPLOSION" ],
     "explode_in_fire": true,
-    "explosion": { "power": 6000, "distance_factor": 0.4 }
+    "explosion": { "damage": 6000, "radius": 2 }
   },
   {
     "type": "AMMO",
@@ -246,7 +245,7 @@
     "bashing": 1,
     "ammo_type": "120mm_usable",
     "casing": "120mm_case_base",
-    "damage": { "damage_type": "bullet", "amount": 3500, "armor_penetration": 800 },
+    "damage": { "damage_type": "stab", "amount": 3500, "armor_penetration": 800 },
     "range": 95,
     "dispersion": 225,
     "recoil": 787500,
@@ -269,7 +268,7 @@
     "bashing": 1,
     "ammo_type": "120mm_usable",
     "casing": "120mm_casing",
-    "damage": { "damage_type": "bullet", "amount": 1500, "armor_penetration": 10 },
+    "damage": { "damage_type": "stab", "amount": 1500, "armor_penetration": 10 },
     "range": 30,
     "dispersion": 150,
     "recoil": 225000,
@@ -283,7 +282,7 @@
     "name": { "str_sp": "makeshift 120mm shot, black powder" },
     "proportional": {
       "price": 0.3,
-      "damage": { "damage_type": "bullet", "amount": 0.76, "armor_penetration": 0.5 },
+      "damage": { "damage_type": "stab", "amount": 0.76, "armor_penetration": 0.5 },
       "recoil": 0.76,
       "dispersion": 1.2
     },
@@ -304,7 +303,7 @@
     "bashing": 1,
     "ammo_type": "120mm_usable",
     "casing": "120mm_casing",
-    "damage": { "damage_type": "bullet", "amount": 1500, "armor_penetration": 25 },
+    "damage": { "damage_type": "stab", "amount": 1500, "armor_penetration": 25 },
     "range": 60,
     "dispersion": 300,
     "recoil": 450000,
@@ -318,7 +317,7 @@
     "name": { "str_sp": "makeshift 120mm slug, black powder" },
     "proportional": {
       "price": 0.3,
-      "damage": { "damage_type": "bullet", "amount": 0.76, "armor_penetration": 0.5 },
+      "damage": { "damage_type": "stab", "amount": 0.76, "armor_penetration": 0.5 },
       "recoil": 0.76,
       "dispersion": 1.2
     },
@@ -338,7 +337,7 @@
     "weight": "62 kg",
     "bashing": 1,
     "ammo_type": "155mm",
-    "damage": { "damage_type": "bullet", "amount": 3750, "armor_penetration": 1200 },
+    "damage": { "damage_type": "stab", "amount": 3750, "armor_penetration": 1200 },
     "range": 120,
     "dispersion": 275,
     "recoil": 1031250,
@@ -346,7 +345,7 @@
     "flags": [ "IRREPLACEABLE_CONSUMABLE" ],
     "effects": [ "CUSTOM_EXPLOSION" ],
     "explode_in_fire": true,
-    "explosion": { "power": 8000, "distance_factor": 0.4 }
+    "explosion": { "damage": 8000, "radius": 3 }
   },
   {
     "type": "AMMO",
@@ -362,7 +361,7 @@
     "weight": "45 kg",
     "bashing": 1,
     "ammo_type": "155mm",
-    "damage": { "damage_type": "bullet", "amount": 3500, "armor_penetration": 1200 },
+    "damage": { "damage_type": "stab", "amount": 3500, "armor_penetration": 1200 },
     "range": 120,
     "dispersion": 300,
     "recoil": 1050000,
@@ -370,7 +369,7 @@
     "flags": [ "IRREPLACEABLE_CONSUMABLE" ],
     "effects": [ "CUSTOM_EXPLOSION" ],
     "explode_in_fire": true,
-    "explosion": { "power": 10000, "distance_factor": 0.8, "shrapnel": { "casing_mass": 35000, "fragment_mass": 10, "recovery": 1, "drop": "shrapnel" } }
+    "explosion": { "damage": 10000, "radius": 12, "fragment": { "impact": { "damage_type": "cut", "amount": 8000, "armor_multiplier": 3 }, "range": 12 } }
   },
   {
     "type": "AMMO",
@@ -385,7 +384,7 @@
     "weight": "24 kg",
     "bashing": 1,
     "ammo_type": "155mm",
-    "damage": { "damage_type": "bullet", "amount": 2000, "armor_penetration": 16 },
+    "damage": { "damage_type": "stab", "amount": 2000, "armor_penetration": 16 },
     "range": 25,
     "dispersion": 200,
     "recoil": 400000,
@@ -399,7 +398,7 @@
     "name": { "str_sp": "makeshift 155mm shot, black powder" },
     "proportional": {
       "price": 0.3,
-      "damage": { "damage_type": "bullet", "amount": 0.76, "armor_penetration": 0.5 },
+      "damage": { "damage_type": "stab", "amount": 0.76, "armor_penetration": 0.5 },
       "recoil": 0.76,
       "dispersion": 1.2
     },
@@ -418,7 +417,7 @@
     "weight": "24 kg",
     "bashing": 1,
     "ammo_type": "155mm",
-    "damage": { "damage_type": "bullet", "amount": 2000, "armor_penetration": 35 },
+    "damage": { "damage_type": "stab", "amount": 2000, "armor_penetration": 35 },
     "range": 75,
     "dispersion": 400,
     "recoil": 800000,
@@ -432,7 +431,7 @@
     "name": { "str_sp": "makeshift 155mm slug, black powder" },
     "proportional": {
       "price": 0.3,
-      "damage": { "damage_type": "bullet", "amount": 0.76, "armor_penetration": 0.5 },
+      "damage": { "damage_type": "stab", "amount": 0.76, "armor_penetration": 0.5 },
       "recoil": 0.76,
       "dispersion": 1.2
     },
@@ -536,7 +535,6 @@
     "ammo": "25mm",
     "weight": "120 kg",
     "volume": "10 L",
-    "longest_side": "265 cm",
     "bashing": 12,
     "to_hit": -1,
     "dispersion": 15,
@@ -544,14 +542,13 @@
     "modes": [ [ "DEFAULT", "semi-auto", 1 ], [ "BURST", "low auto", 2 ], [ "AUTO", "high auto", 4 ] ],
     "reload": 700,
     "ups_charges": 10,
-    "pocket_data": [
-      {
-        "pocket_type": "MAGAZINE_WELL",
-        "holster": true,
-        "max_contains_volume": "100 L",
-        "max_contains_weight": "100 kg",
-        "item_restriction": [ "belt25mm" ]
-      }
+    "magazines": [
+      [
+        "25mm",
+        [
+          "belt25mm"
+        ]
+      ]
     ]
   },
   {
@@ -573,7 +570,7 @@
     "longest_side": "210 cm",
     "bashing": 10,
     "to_hit": -1,
-    "ranged_damage": { "damage_type": "bullet", "amount": -4 },
+    "ranged_damage": { "damage_type": "stab", "amount": -4 },
     "dispersion": 75,
     "durability": 7,
     "modes": [ [ "DEFAULT", "semi-auto", 1 ], [ "BURST", "low auto", 2 ], [ "AUTO", "high auto", 4 ] ],
@@ -587,8 +584,7 @@
     ],
     "reload": 700,
     "blackpowder_tolerance": 24,
-    "clip_size": 1,
-    "pocket_data": [ { "pocket_type": "MAGAZINE", "holster": true, "rigid": true, "ammo_restriction": { "25mm": 1 } } ]
+    "clip_size": 1
   },
   {
     "id": "tank_gun_manual",
@@ -612,7 +608,6 @@
     "dispersion": 20,
     "sight_dispersion": 10,
     "durability": 9,
-    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "120mm_usable": 1 } } ],
     "blackpowder_tolerance": 24,
     "clip_size": 1,
     "reload": 300,
@@ -642,8 +637,7 @@
     "durability": 8,
     "clip_size": 5,
     "reload": 450,
-    "ups_charges": 50,
-    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "120mm_usable": 5 } } ]
+    "ups_charges": 50
   },
   {
     "id": "tank_gun_manual_105mm",
@@ -763,8 +757,7 @@
     "sight_dispersion": 500,
     "durability": 8,
     "clip_size": 5,
-    "reload": 450,
-    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "120mm_usable": 5 } } ]
+    "reload": 450
   },
   {
     "type": "GENERIC",
