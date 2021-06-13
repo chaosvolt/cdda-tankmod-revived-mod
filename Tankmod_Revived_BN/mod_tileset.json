@@ -1,7 +1,7 @@
 [
   {
     "type": "mod_tileset",
-    "compatibility": [ "UltimateCataclysm", "UltimateCataclysmDemo" ],
+    "compatibility": [ "UltimateCataclysm", "UltimateCataclysmDemo", "UNDEAD_PEOPLE_BASE" ],
     "tiles-new": [
       {
         "file": "mod_tileset.png",
