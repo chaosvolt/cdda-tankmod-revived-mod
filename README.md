@@ -1,4 +1,4 @@
-# Tankmod: Reborn, a vehicle and content mod for Cataclysm DDA and BN
+# Tankmod: Revived, a vehicle and content mod for Cataclysm DDA and BN
 
 The official replacement to my old Tanks And Other Vehicles mod, for Catacylsm: Dark Days Ahead and Cataclysm: Bright Nights. Formerly Dependant upon Vehicle Additions Pack, formerly an in-repo mod and now being maintained as a third-party mod with no need for dependency upon other mods.
 
