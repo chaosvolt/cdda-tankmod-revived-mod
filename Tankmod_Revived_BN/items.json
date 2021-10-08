@@ -103,11 +103,7 @@
     "copy-from": "25mm_slug",
     "type": "AMMO",
     "name": { "str_sp": "reloaded 25x137mm, black powder" },
-    "proportional": {
-      "damage": { "damage_type": "stab", "amount": 0.76, "armor_penetration": 0.5 },
-      "recoil": 0.76,
-      "dispersion": 1.2
-    },
+    "proportional": { "damage": { "damage_type": "stab", "amount": 0.76, "armor_penetration": 0.5 }, "recoil": 0.76, "dispersion": 1.2 },
     "extend": { "effects": [ "BLACKPOWDER", "MUZZLE_SMOKE" ] }
   },
   {
@@ -132,11 +128,7 @@
     "copy-from": "25mm_he_reloaded",
     "type": "AMMO",
     "name": { "str_sp": "reloaded 25x137mm HE, black powder" },
-    "proportional": {
-      "damage": { "damage_type": "stab", "amount": 0.76, "armor_penetration": 0.5 },
-      "recoil": 0.76,
-      "dispersion": 1.2
-    },
+    "proportional": { "damage": { "damage_type": "stab", "amount": 0.76, "armor_penetration": 0.5 }, "recoil": 0.76, "dispersion": 1.2 },
     "extend": { "effects": [ "BLACKPOWDER", "MUZZLE_SMOKE" ] }
   },
   {
@@ -215,11 +207,7 @@
     "copy-from": "105mm_slug",
     "type": "AMMO",
     "name": { "str_sp": "makeshift 105mm slug, black powder" },
-    "proportional": {
-      "damage": { "damage_type": "stab", "amount": 0.76, "armor_penetration": 0.5 },
-      "recoil": 0.76,
-      "dispersion": 1.2
-    },
+    "proportional": { "damage": { "damage_type": "stab", "amount": 0.76, "armor_penetration": 0.5 }, "recoil": 0.76, "dispersion": 1.2 },
     "extend": { "effects": [ "BLACKPOWDER", "MUZZLE_SMOKE" ] }
   },
   {
@@ -244,11 +232,7 @@
     "copy-from": "105mm_he_reloaded",
     "type": "AMMO",
     "name": { "str_sp": "reloaded 105mm HE, black powder" },
-    "proportional": {
-      "damage": { "damage_type": "stab", "amount": 0.76, "armor_penetration": 0.5 },
-      "recoil": 0.76,
-      "dispersion": 1.2
-    },
+    "proportional": { "damage": { "damage_type": "stab", "amount": 0.76, "armor_penetration": 0.5 }, "recoil": 0.76, "dispersion": 1.2 },
     "extend": { "effects": [ "BLACKPOWDER", "MUZZLE_SMOKE" ] }
   },
   {
@@ -325,11 +309,7 @@
     "copy-from": "120mm_usable_shot",
     "type": "AMMO",
     "name": { "str_sp": "makeshift 120mm shot, black powder" },
-    "proportional": {
-      "damage": { "damage_type": "stab", "amount": 0.76, "armor_penetration": 0.5 },
-      "recoil": 0.76,
-      "dispersion": 1.2
-    },
+    "proportional": { "damage": { "damage_type": "stab", "amount": 0.76, "armor_penetration": 0.5 }, "recoil": 0.76, "dispersion": 1.2 },
     "extend": { "effects": [ "BLACKPOWDER", "MUZZLE_SMOKE" ] }
   },
   {
@@ -358,11 +338,7 @@
     "copy-from": "120mm_usable_slug",
     "type": "AMMO",
     "name": { "str_sp": "makeshift 120mm slug, black powder" },
-    "proportional": {
-      "damage": { "damage_type": "stab", "amount": 0.76, "armor_penetration": 0.5 },
-      "recoil": 0.76,
-      "dispersion": 1.2
-    },
+    "proportional": { "damage": { "damage_type": "stab", "amount": 0.76, "armor_penetration": 0.5 }, "recoil": 0.76, "dispersion": 1.2 },
     "extend": { "effects": [ "BLACKPOWDER", "MUZZLE_SMOKE" ] }
   },
   {
@@ -387,11 +363,7 @@
     "copy-from": "120mm_usable_he_reloaded",
     "type": "AMMO",
     "name": { "str_sp": "reloaded 120mm HE, black powder" },
-    "proportional": {
-      "damage": { "damage_type": "stab", "amount": 0.76, "armor_penetration": 0.5 },
-      "recoil": 0.76,
-      "dispersion": 1.2
-    },
+    "proportional": { "damage": { "damage_type": "stab", "amount": 0.76, "armor_penetration": 0.5 }, "recoil": 0.76, "dispersion": 1.2 },
     "extend": { "effects": [ "BLACKPOWDER", "MUZZLE_SMOKE" ] }
   },
   {
@@ -466,11 +438,7 @@
     "copy-from": "155mm_shot",
     "type": "AMMO",
     "name": { "str_sp": "makeshift 155mm shot, black powder" },
-    "proportional": {
-      "damage": { "damage_type": "stab", "amount": 0.76, "armor_penetration": 0.5 },
-      "recoil": 0.76,
-      "dispersion": 1.2
-    },
+    "proportional": { "damage": { "damage_type": "stab", "amount": 0.76, "armor_penetration": 0.5 }, "recoil": 0.76, "dispersion": 1.2 },
     "extend": { "effects": [ "BLACKPOWDER", "MUZZLE_SMOKE" ] }
   },
   {
@@ -498,11 +466,7 @@
     "copy-from": "155mm_slug",
     "type": "AMMO",
     "name": { "str_sp": "makeshift 155mm slug, black powder" },
-    "proportional": {
-      "damage": { "damage_type": "stab", "amount": 0.76, "armor_penetration": 0.5 },
-      "recoil": 0.76,
-      "dispersion": 1.2
-    },
+    "proportional": { "damage": { "damage_type": "stab", "amount": 0.76, "armor_penetration": 0.5 }, "recoil": 0.76, "dispersion": 1.2 },
     "extend": { "effects": [ "BLACKPOWDER", "MUZZLE_SMOKE" ] }
   },
   {
@@ -527,11 +491,7 @@
     "copy-from": "155mm_he_reloaded",
     "type": "AMMO",
     "name": { "str_sp": "reloaded 155mm HE, black powder" },
-    "proportional": {
-      "damage": { "damage_type": "stab", "amount": 0.76, "armor_penetration": 0.5 },
-      "recoil": 0.76,
-      "dispersion": 1.2
-    },
+    "proportional": { "damage": { "damage_type": "stab", "amount": 0.76, "armor_penetration": 0.5 }, "recoil": 0.76, "dispersion": 1.2 },
     "extend": { "effects": [ "BLACKPOWDER", "MUZZLE_SMOKE" ] }
   },
   {
@@ -921,7 +881,7 @@
     "clip_size": 2,
     "reload": 1200,
     "ups_charges": 75,
-    "flags": [ "MOUNTED_GUN", "NEVER_JAMS", "NO_RELOAD", "RELOAD_EJECT", "RELOAD_ONE" ]
+    "flags": [ "MOUNTED_GUN", "NEVER_JAMS", "NO_RELOAD", "RELOAD_EJECT", "RELOAD_ONE", "PYROMANIAC_WEAPON" ]
   },
   {
     "type": "BOOK",
