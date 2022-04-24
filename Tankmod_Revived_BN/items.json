@@ -121,7 +121,7 @@
     },
     "extend": { "effects": [ "CUSTOM_EXPLOSION" ] },
     "explode_in_fire": true,
-    "explosion": { "damage": 20, "radius": 1 }
+    "explosion": { "damage": 5, "radius": 1 }
   },
   {
     "id": "bp_25mm_he_reloaded",
@@ -155,7 +155,7 @@
     "flags": [ "IRREPLACEABLE_CONSUMABLE" ],
     "effects": [ "CUSTOM_EXPLOSION" ],
     "explode_in_fire": true,
-    "explosion": { "damage": 1250, "radius": 2 }
+    "explosion": { "damage": 250, "radius": 2 }
   },
   {
     "type": "AMMO",
@@ -225,7 +225,7 @@
     },
     "extend": { "effects": [ "CUSTOM_EXPLOSION" ] },
     "explode_in_fire": true,
-    "explosion": { "damage": 1000, "radius": 4 }
+    "explosion": { "damage": 200, "radius": 4 }
   },
   {
     "id": "bp_105mm_he_reloaded",
@@ -258,7 +258,7 @@
     "flags": [ "IRREPLACEABLE_CONSUMABLE" ],
     "effects": [ "CUSTOM_EXPLOSION" ],
     "explode_in_fire": true,
-    "explosion": { "damage": 2500, "radius": 3 }
+    "explosion": { "damage": 500, "radius": 3 }
   },
   {
     "type": "AMMO",
@@ -356,7 +356,7 @@
     },
     "extend": { "effects": [ "CUSTOM_EXPLOSION" ] },
     "explode_in_fire": true,
-    "explosion": { "damage": 2000, "radius": 5 }
+    "explosion": { "damage": 400, "radius": 5 }
   },
   {
     "id": "bp_120mm_usable_he_reloaded",
@@ -388,7 +388,7 @@
     "flags": [ "IRREPLACEABLE_CONSUMABLE" ],
     "effects": [ "CUSTOM_EXPLOSION" ],
     "explode_in_fire": true,
-    "explosion": { "damage": 7500, "radius": 5 }
+    "explosion": { "damage": 1500, "radius": 5 }
   },
   {
     "type": "AMMO",
@@ -484,7 +484,7 @@
     },
     "extend": { "effects": [ "CUSTOM_EXPLOSION" ] },
     "explode_in_fire": true,
-    "explosion": { "damage": 6000, "radius": 6 }
+    "explosion": { "damage": 1200, "radius": 6 }
   },
   {
     "id": "bp_155mm_he_reloaded",
