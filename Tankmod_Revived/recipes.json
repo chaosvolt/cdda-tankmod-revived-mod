@@ -117,9 +117,9 @@
     "time": "28 m",
     "batch_time_factors": [ 50, 10 ],
     "book_learn": [ [ "textbook_launcher", 7 ], [ "textbook_anarch", 9 ] ],
-    "using": [ [ "ammo_bullet", 2000 ] ],
+    "using": [ [ "bullet_forming", 15 ], [ "ammo_bullet", 2000 ] ],
     "qualities": [ { "id": "WRENCH", "level": 1 } ],
-    "tools": [ [ [ "fire", -1 ], [ "toolset", 10 ] ], [ [ "tongs", -1 ] ], [ [ "crucible", -1 ], [ "crucible_clay", -1 ] ] ],
+    "tools": [ [ [ "tongs", -1 ] ], [ [ "crucible", -1 ], [ "crucible_clay", -1 ] ] ],
     "components": [
       [ [ "105mm_casing", 1 ] ],
       [ [ "electric_primer_120mm", 1 ] ],
@@ -143,9 +143,9 @@
     "time": "28 m",
     "batch_time_factors": [ 50, 10 ],
     "book_learn": [ [ "textbook_launcher", 7 ], [ "textbook_anarch", 9 ] ],
-    "using": [ [ "ammo_bullet", 2000 ] ],
+    "using": [ [ "bullet_forming", 15 ], [ "ammo_bullet", 2000 ] ],
     "qualities": [ { "id": "WRENCH", "level": 1 } ],
-    "tools": [ [ [ "fire", -1 ], [ "toolset", 10 ] ], [ [ "tongs", -1 ] ], [ [ "crucible", -1 ], [ "crucible_clay", -1 ] ] ],
+    "tools": [ [ [ "tongs", -1 ] ], [ [ "crucible", -1 ], [ "crucible_clay", -1 ] ] ],
     "components": [ [ [ "105mm_casing", 1 ] ], [ [ "electric_primer_120mm", 1 ] ], [ [ "chem_black_powder", 6000 ] ] ]
   },
   {
@@ -207,9 +207,8 @@
     "time": "25 m",
     "batch_time_factors": [ 50, 10 ],
     "book_learn": [ [ "textbook_launcher", 6 ], [ "textbook_anarch", 8 ] ],
-    "using": [ [ "ammo_bullet", 3000 ] ],
+    "using": [ [ "bullet_forming", 30 ], [ "ammo_bullet", 3000 ] ],
     "qualities": [ { "id": "WRENCH", "level": 1 } ],
-    "tools": [ [ [ "fire", -1 ], [ "toolset", 10 ] ] ],
     "components": [
       [ [ "120mm_casing", 1 ] ],
       [ [ "electric_primer_120mm", 1 ] ],
@@ -234,9 +233,8 @@
     "time": "25 m",
     "batch_time_factors": [ 50, 10 ],
     "book_learn": [ [ "textbook_launcher", 6 ], [ "textbook_anarch", 8 ] ],
-    "using": [ [ "ammo_bullet", 3000 ] ],
+    "using": [ [ "bullet_forming", 30 ], [ "ammo_bullet", 3000 ] ],
     "qualities": [ { "id": "WRENCH", "level": 1 } ],
-    "tools": [ [ [ "fire", -1 ], [ "toolset", 10 ] ] ],
     "components": [ [ [ "120mm_casing", 1 ] ], [ [ "electric_primer_120mm", 1 ] ], [ [ "chem_black_powder", 8000 ] ], [ [ "paper", 5 ] ] ]
   },
   {
@@ -251,9 +249,9 @@
     "time": "28 m",
     "batch_time_factors": [ 50, 10 ],
     "book_learn": [ [ "textbook_launcher", 7 ], [ "textbook_anarch", 9 ] ],
-    "using": [ [ "ammo_bullet", 3000 ] ],
+    "using": [ [ "bullet_forming", 30 ], [ "ammo_bullet", 3000 ] ],
     "qualities": [ { "id": "WRENCH", "level": 1 } ],
-    "tools": [ [ [ "fire", -1 ], [ "toolset", 10 ] ], [ [ "tongs", -1 ] ], [ [ "crucible", -1 ], [ "crucible_clay", -1 ] ] ],
+    "tools": [ [ [ "tongs", -1 ] ], [ [ "crucible", -1 ], [ "crucible_clay", -1 ] ] ],
     "components": [
       [ [ "120mm_casing", 1 ] ],
       [ [ "electric_primer_120mm", 1 ] ],
@@ -277,9 +275,9 @@
     "time": "28 m",
     "batch_time_factors": [ 50, 10 ],
     "book_learn": [ [ "textbook_launcher", 7 ], [ "textbook_anarch", 9 ] ],
-    "using": [ [ "ammo_bullet", 3000 ] ],
+    "using": [ [ "bullet_forming", 30 ], [ "ammo_bullet", 3000 ] ],
     "qualities": [ { "id": "WRENCH", "level": 1 } ],
-    "tools": [ [ [ "fire", -1 ], [ "toolset", 10 ] ], [ [ "tongs", -1 ] ], [ [ "crucible", -1 ], [ "crucible_clay", -1 ] ] ],
+    "tools": [ [ [ "tongs", -1 ] ], [ [ "crucible", -1 ], [ "crucible_clay", -1 ] ] ],
     "components": [ [ [ "120mm_casing", 1 ] ], [ [ "electric_primer_120mm", 1 ] ], [ [ "chem_black_powder", 8000 ] ] ]
   },
   {
@@ -341,8 +339,7 @@
     "time": "30 m",
     "batch_time_factors": [ 50, 10 ],
     "book_learn": [ [ "textbook_launcher", 5 ], [ "textbook_anarch", 6 ] ],
-    "using": [ [ "ammo_bullet", 7000 ] ],
-    "tools": [ [ [ "fire", -1 ], [ "toolset", 20 ] ] ],
+    "using": [ [ "bullet_forming", 50 ], [ "ammo_bullet", 7000 ] ],
     "components": [
       [ [ "primer_155mm", 1 ] ],
       [
@@ -366,8 +363,7 @@
     "time": "30 m",
     "batch_time_factors": [ 50, 10 ],
     "book_learn": [ [ "textbook_launcher", 5 ], [ "textbook_anarch", 6 ] ],
-    "using": [ [ "ammo_bullet", 7000 ] ],
-    "tools": [ [ [ "fire", -1 ], [ "toolset", 20 ] ] ],
+    "using": [ [ "bullet_forming", 50 ], [ "ammo_bullet", 7000 ] ],
     "components": [ [ [ "primer_155mm", 1 ] ], [ [ "chem_black_powder", 12000 ] ], [ [ "paper", 12 ] ] ]
   },
   {
@@ -382,8 +378,8 @@
     "time": "33 m",
     "batch_time_factors": [ 50, 10 ],
     "book_learn": [ [ "textbook_launcher", 6 ], [ "textbook_anarch", 8 ] ],
-    "using": [ [ "ammo_bullet", 7000 ] ],
-    "tools": [ [ [ "fire", -1 ], [ "toolset", 20 ] ], [ [ "tongs", -1 ] ], [ [ "crucible", -1 ], [ "crucible_clay", -1 ] ] ],
+    "using": [ [ "bullet_forming", 50 ], [ "ammo_bullet", 7000 ] ],
+    "tools": [ [ [ "tongs", -1 ] ], [ [ "crucible", -1 ], [ "crucible_clay", -1 ] ] ],
     "components": [
       [ [ "primer_155mm", 1 ] ],
       [
@@ -407,8 +403,8 @@
     "time": "33 m",
     "batch_time_factors": [ 50, 10 ],
     "book_learn": [ [ "textbook_launcher", 6 ], [ "textbook_anarch", 8 ] ],
-    "using": [ [ "ammo_bullet", 7000 ] ],
-    "tools": [ [ [ "fire", -1 ], [ "toolset", 20 ] ], [ [ "tongs", -1 ] ], [ [ "crucible", -1 ], [ "crucible_clay", -1 ] ] ],
+    "using": [ [ "bullet_forming", 50 ], [ "ammo_bullet", 7000 ] ],
+    "tools": [ [ [ "tongs", -1 ] ], [ [ "crucible", -1 ], [ "crucible_clay", -1 ] ] ],
     "components": [ [ [ "primer_155mm", 1 ] ], [ [ "chem_black_powder", 12000 ] ], [ [ "paper", 6 ] ] ]
   },
   {
