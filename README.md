@@ -1,8 +1,12 @@
 # Tankmod: Revived, a vehicle and content mod for Cataclysm DDA and BN
 
-The official replacement to my old Tanks And Other Vehicles mod, for Catacylsm: Dark Days Ahead and Cataclysm: Bright Nights. Formerly Dependant upon Vehicle Additions Pack, formerly an in-repo mod and now being maintained as a third-party mod with no need for dependency upon other mods.
+The official replacement to my old Tanks And Other Vehicles mod, for Cataclysm: Dark Days Ahead and Cataclysm: Bright Nights. Formerly Dependent upon Vehicle Additions Pack, formerly an in-repo mod and now being maintained as a third-party mod with no need for dependency upon other mods.
 
-If you are using Dark Days Ahead, place the included Tankmod_Revived folder in your data/mods folder. If you are using the Bright Nights fork, use the Tankmod_Revived_BN folder instead. In either case it is recommended that, if updating the mod, to delete the older version of the folder rather than just dumping the new one onto the old one.
+This version is for the 0.1 Stable release of Cataclysm: Bright Nights. To use this, copy over the Tankmod_Revived_BN folder into data/mods.
+
+If you are using experimental Bright Nights, it is recommended you update from the main page using the "download zip" option within the green "code" button, and copy the Tankmod_Revived_BN folder into data/mods folder.
+
+Likewise, if you are using experimental DDA, use the Tankmod_Revived folder from the master branch.
 
 Notable changes from the last in-repo version of Tankmod:
 1. The main battle tank, self-propelled howitzer, and infantry fighting vehicle have been overhauled, more closely modeled after their real-world counterparts (which they've now been named after). Gone are the odd, spacious Merkava-like layouts, in favor of designs that better mimic the M1 Abrams, M109 howitzer, and M2 Bradley.
