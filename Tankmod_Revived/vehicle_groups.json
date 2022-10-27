@@ -24,7 +24,6 @@
       [ "tank_m1_abrams", 25 ],
       [ "tank_m60_patton", 5 ],
       [ "tank_m60_patton_mothballed", 5 ],
-      [ "howitzer_m109", 10 ],
       [ "tank_xm7_elec", 1 ]
     ]
   },
@@ -36,6 +35,7 @@
       [ "tank_m1_abrams", 250 ],
       [ "tank_m60_patton", 25 ],
       [ "tank_m60_patton_mothballed", 50 ],
+      [ "howitzer_m109", 125 ],
       [ "tank_xm7_elec", 10 ]
     ]
   },
