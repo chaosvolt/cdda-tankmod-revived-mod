@@ -10,7 +10,8 @@
     "type": "ammo_effect",
     "explosion": {
       "damage": 400,
-      "fragment": { "impact": { "damage_type": "cut", "amount": 400, "armor_multiplier": 3 }, "radius": 10 }
+      "fragment": { "impact": { "damage_type": "cut", "amount": 400, "armor_multiplier": 3 }, "range": 10 },
+      "radius": 10
     }
   },
   {
@@ -26,6 +27,6 @@
       "check_sees": true,
       "check_sees_radius": 3
     },
-    "explosion": { "damage": 300, "fragment": { "impact": { "damage_type": "heat", "amount": 600 }, "radius": 20 } }
+    "explosion": { "damage": 300, "fragment": { "impact": { "damage_type": "heat", "amount": 600 }, "range": 20 }, "radius": 20 }
   }
 ]
