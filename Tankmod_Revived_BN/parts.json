@@ -182,7 +182,7 @@
     "looks_like": "mounted_25mm_autocannon_sawn",
     "copy-from": "turret_tank",
     "name": "makeshift25mm cannon",
-    "item": "howitzer_gun_crude",
+    "item": "25mm_cannon_crude",
     "durability": 400,
     "damage_modifier": 40,
     "breaks_into": [ { "item": "steel_lump", "count": [ 7, 14 ] }, { "item": "steel_chunk", "count": [ 35, 70 ] } ],
