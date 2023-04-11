@@ -6,7 +6,7 @@
     "authors": [ "Chaosvolt" ],
     "maintainers": [ "Chaosvolt" ],
     "description": "The intended successor of my older, obsoleted Tanks and Other Vehicles mod.",
-    "version": "DDA version, update 4/6/2023",
+    "version": "DDA version, update 4/11/2023",
     "category": "vehicles",
     "dependencies": [ "dda" ]
   }

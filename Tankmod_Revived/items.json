@@ -7,8 +7,7 @@
     "stackable": true,
     "material": "steel",
     "symbol": "=",
-    "color": "green",
-    "damage_states": [ 0, 0 ]
+    "color": "green"
   },
   {
     "id": "belt25mm",
@@ -618,7 +617,7 @@
     "price": "28000 USD",
     "price_postapoc": "75 USD",
     "material": [ "steel" ],
-    "flags": [ "NO_RELOAD", "MOUNTED_GUN", "STR_RELOAD" ],
+    "flags": [ "NO_RELOAD", "MOUNTED_GUN", "STR_RELOAD", "USE_UPS" ],
     "skill": "launcher",
     "ammo": "25mm",
     "weight": "120 kg",
@@ -630,7 +629,7 @@
     "durability": 8,
     "modes": [ [ "DEFAULT", "semi-auto", 1 ], [ "BURST", "low auto", 2 ], [ "AUTO", "high auto", 4 ] ],
     "reload": 500,
-    "ups_charges": 10,
+    "energy_drain": "10 kJ",
     "pocket_data": [
       {
         "pocket_type": "MAGAZINE_WELL",
@@ -731,7 +730,7 @@
     "blackpowder_tolerance": 24,
     "clip_size": 1,
     "reload": 300,
-    "ups_charges": 25
+    "energy_drain": "25 kJ"
   },
   {
     "id": "tank_gun_auto",
@@ -743,7 +742,7 @@
     "price": "910000 USD",
     "price_postapoc": "100 USD",
     "material": [ "steel" ],
-    "flags": [ "NO_RELOAD", "MOUNTED_GUN", "STR_RELOAD" ],
+    "flags": [ "NO_RELOAD", "MOUNTED_GUN", "STR_RELOAD", "USE_UPS" ],
     "skill": "launcher",
     "ammo": "120mm_usable",
     "weight": "3300 kg",
@@ -757,7 +756,7 @@
     "durability": 8,
     "clip_size": 5,
     "reload": 450,
-    "ups_charges": 50,
+    "energy_drain": "50 kJ",
     "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "120mm_usable": 5 } } ]
   },
   {
@@ -787,7 +786,7 @@
     "clip_size": 1,
     "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "120mm_usable": 1 } } ],
     "reload": 1200,
-    "ups_charges": 50
+    "energy_drain": "50 kJ"
   },
   {
     "id": "tank_gun_manual_105mm",
@@ -816,7 +815,7 @@
     "blackpowder_tolerance": 24,
     "clip_size": 1,
     "reload": 250,
-    "ups_charges": 25
+    "energy_drain": "25 kJ"
   },
   {
     "id": "tank_gun_crude_105mm",
@@ -845,7 +844,7 @@
     "blackpowder_tolerance": 12,
     "clip_size": 1,
     "reload": 1000,
-    "ups_charges": 50
+    "energy_drain": "50 kJ"
   },
   {
     "id": "howitzer_gun",
@@ -925,8 +924,8 @@
     "clip_size": 2,
     "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "atgm": 2 } } ],
     "reload": 1200,
-    "ups_charges": 75,
-    "flags": [ "MOUNTED_GUN", "NEVER_JAMS", "NO_RELOAD", "RELOAD_EJECT", "RELOAD_ONE" ]
+    "energy_drain": "75 kJ",
+    "flags": [ "MOUNTED_GUN", "NEVER_JAMS", "NO_RELOAD", "RELOAD_EJECT", "RELOAD_ONE", "USE_UPS" ]
   },
   {
     "type": "BOOK",
