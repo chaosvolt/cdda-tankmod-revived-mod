@@ -100,9 +100,7 @@
     "difficulty": 6,
     "time": "90 m",
     "book_learn": [ [ "textbook_launcher", 6 ], [ "textbook_anarch", 8 ] ],
-    "using": [ [ "blacksmithing_standard", 2 ], [ "steel_tiny", 2 ] ],
-    "qualities": [ { "id": "CHISEL", "level": 3 } ],
-    "tools": [ [ [ "swage", -1 ] ] ],
+    "using": [ [ "blacksmithing_advanced", 2 ], [ "steel_tiny", 2 ] ],
     "components": [ [ [ "120mm_case_base", 1 ] ] ]
   },
   {
@@ -583,9 +581,8 @@
     "time": "30 h",
     "autolearn": true,
     "book_learn": [ [ "textbook_fabrication", 3 ], [ "welding_book", 4 ], [ "textbook_carpentry", 3 ] ],
-    "using": [ [ "forging_standard", 10 ], [ "steel_standard", 12 ] ],
-    "qualities": [ { "id": "HAMMER", "level": 3 }, { "id": "CUT", "level": 1 }, { "id": "CHISEL", "level": 3 } ],
-    "tools": [ [ [ "tongs", -1 ] ], [ [ "anvil", -1 ] ], [ [ "swage", -1 ] ] ],
+    "using": [ [ "blacksmithing_standard", 10 ], [ "steel_standard", 12 ] ],
+    "qualities": [ { "id": "CUT", "level": 1 } ],
     "components": [ [ [ "chunk_rubber", 50 ] ], [ [ "wire", 14 ] ], [ [ "plastic_chunk", 150 ] ], [ [ "chain", 4 ] ] ]
   },
   {
@@ -599,9 +596,7 @@
     "time": "40 h",
     "autolearn": true,
     "book_learn": [ [ "textbook_fabrication", 4 ], [ "welding_book", 5 ], [ "textbook_carpentry", 4 ] ],
-    "using": [ [ "forging_standard", 15 ], [ "steel_standard", 15 ] ],
-    "qualities": [ { "id": "HAMMER", "level": 3 }, { "id": "CUT", "level": 1 }, { "id": "CHISEL", "level": 3 } ],
-    "tools": [ [ [ "tongs", -1 ] ], [ [ "anvil", -1 ] ], [ [ "swage", -1 ] ] ],
+    "using": [ [ "blacksmithing_intermediate", 15 ], [ "steel_standard", 15 ] ],
     "components": [ [ [ "steel_plate", 3 ] ], [ [ "chain", 6 ] ] ]
   },
   {
@@ -615,9 +610,7 @@
     "time": "50 h",
     "autolearn": true,
     "book_learn": [ [ "textbook_fabrication", 5 ], [ "welding_book", 6 ], [ "textbook_carpentry", 5 ] ],
-    "using": [ [ "forging_standard", 20 ], [ "steel_standard", 20 ] ],
-    "qualities": [ { "id": "HAMMER", "level": 3 }, { "id": "CUT", "level": 1 }, { "id": "CHISEL", "level": 3 } ],
-    "tools": [ [ [ "tongs", -1 ] ], [ [ "anvil", -1 ] ], [ [ "swage", -1 ] ] ],
+    "using": [ [ "blacksmithing_advanced", 20 ], [ "steel_standard", 20 ] ],
     "components": [ [ [ "hard_plate", 5 ] ], [ [ "chain", 8 ] ] ]
   }
 ]
