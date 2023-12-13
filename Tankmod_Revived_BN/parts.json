@@ -157,7 +157,7 @@
     "breaks_into": [ { "item": "steel_lump", "count": [ 15, 30 ] }, { "item": "steel_chunk", "count": [ 75, 150 ] } ],
     "requirements": {
       "install": {
-        "skills": [ [ "mechanics", 5 ], [ "launcher", 3 ] ],
+        "skills": [ [ "mechanics", 5 ], [ "launcher", 1 ] ],
         "time": "60 m",
         "using": [ [ "vehicle_bolt", 1 ], [ "welding_standard", 10 ] ]
       }
@@ -172,7 +172,7 @@
     "item": "25mm_autocannon_sawn",
     "breaks_into": [ { "item": "steel_lump", "count": [ 6, 12 ] }, { "item": "steel_chunk", "count": [ 30, 60 ] } ],
     "requirements": {
-      "install": { "skills": [ [ "mechanics", 4 ], [ "launcher", 2 ] ], "time": "10 m" },
+      "install": { "skills": [ [ "mechanics", 4 ], [ "launcher", 1 ] ], "time": "10 m" },
       "removal": { "skills": [ [ "mechanics", 2 ] ], "time": "5 m" }
     }
   },
@@ -188,7 +188,7 @@
     "breaks_into": [ { "item": "steel_lump", "count": [ 7, 14 ] }, { "item": "steel_chunk", "count": [ 35, 70 ] } ],
     "requirements": {
       "install": {
-        "skills": [ [ "mechanics", 3 ], [ "launcher", 2 ] ],
+        "skills": [ [ "mechanics", 3 ], [ "launcher", 1 ] ],
         "time": "60 m",
         "using": [ [ "vehicle_bolt", 1 ], [ "welding_standard", 10 ] ]
       },
