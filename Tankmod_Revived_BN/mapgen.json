@@ -172,7 +172,7 @@
         { "group": "fuel_barrel_diesel_only", "x": 16, "y": 14, "chance": 50 },
         { "group": "m60_patton_ammo_rack", "x": 16, "y": 15, "chance": 100 }
       ],
-      "place_vehicles": [ { "vehicle": "tankmod_garage_restoration", "x": 16, "y": [ 5, 6 ], "chance": 90, "rotation": 270 } ],
+      "place_vehicles": [ { "vehicle": "tankmod_garage_restoration", "x": 17, "y": [ 5, 6 ], "chance": 90, "rotation": 270 } ],
       "place_monster": [
         { "group": "GROUP_MIL_WEAK", "x": [ 5, 20 ], "y": [ 7, 15 ], "chance": 50 },
         { "group": "GROUP_MIL_WEAK", "x": [ 5, 20 ], "y": [ 7, 15 ], "chance": 50 },
@@ -194,9 +194,9 @@
         "   ~~~~~~~ *  ~~~~~~~  *",
         "  * ~~~~~~~   ~~~~~~~   ",
         " WWW~~~~~~~WWW~~~~~~~WW ",
-        " Wz ~~~~~~~ * ~~~~~~~ W ",
+        " Wz ~~~~~~~   ~~~~~~~ W ",
         " W* ~~~~~~~   ~~~~~~~ W ",
-        " W  z~~~~~~~ *~~~~~~~ W ",
+        " W  z~~~~~~~  ~~~~~~~ W ",
         " W z ~~~~~~~  ~~~~~~~ W ",
         " W  *~~~~~~~  ~~~~~~~ W ",
         " W   ~~~~~~~ ~~~~~~~  W ",
@@ -262,7 +262,7 @@
         { "group": "GROUP_MIL_WEAK", "x": [ 0, 23 ], "y": [ 0, 19 ], "chance": 50 },
         { "group": "GROUP_MIL_WEAK", "x": [ 0, 23 ], "y": [ 0, 19 ], "chance": 50 }
       ],
-      "place_vehicles": [ { "vehicle": "tankmod_garage_restoration", "x": [ 10, 11 ], "y": [ 10, 11 ], "chance": 90, "rotation": 270 } ]
+      "place_vehicles": [ { "vehicle": "tankmod_garage_restoration", "x": [ 11, 12 ], "y": [ 11, 12 ], "chance": 90, "rotation": 270 } ]
     }
   },
   {
@@ -360,90 +360,7 @@
         { "group": "GROUP_MIL_WEAK", "x": [ 0, 23 ], "y": [ 0, 19 ], "chance": 50 },
         { "group": "GROUP_MIL_WEAK", "x": [ 0, 23 ], "y": [ 0, 19 ], "chance": 50 }
       ],
-      "place_vehicles": [ { "vehicle": "tankmod_garage_restoration", "x": 5, "y": [ 4, 5 ], "chance": 90, "rotation": 270 } ]
-    }
-  },
-  {
-    "type": "mapgen",
-    "method": "json",
-    "om_terrain": [ "s_vfw" ],
-    "weight": 100,
-    "object": {
-      "fill_ter": "t_floor",
-      "rows": [
-        "rrrrrrrrrrrrr.33.....33'",
-        "yrrryrrryrrry.2222222223",
-        "yrrryrrryrrry.2rrrrrrr23",
-        "yrrryrrryrrry.2rrrrrrr2.",
-        "yrrryrrryrrry.2rrrrrrr23",
-        "yrrryrrryrrry.2rrrrrrr23",
-        "yy2yyy2yyy2yy.2rrrrrrr2.",
-        "..2222222222222rrrrrrr2.",
-        ".3.33.3.33.3.32rrrrrrr2.",
-        "3--1-1-11-1--.2rrrrrrr23",
-        "3|H   F    C|.2rrrrrrr23",
-        ".|I  FHF    +.2rrrrrrr2.",
-        "3|I   F    C|.2222222223",
-        ".|H       FH1...........",
-        "3|    F   FH1.i........3",
-        "3|C  FHF    |..........3",
-        ".|C   F     -----11--...",
-        "3|C            FC  C|..3",
-        ".|     F   F   FC  C1...",
-        "3|+-- FHF FHF  FC  D1..3",
-        "3| B|  F   F       C|..3",
-        ".|----1-11-1--+--11-|...",
-        "3...........5rrUU......3",
-        "3.33.3.33.3.33.3.33.3.33"
-      ],
-      "terrain": {
-        " ": "t_floor",
-        "+": "t_door_c",
-        "-": "t_wall_wood",
-        ".": [ [ "t_grass", 5 ], [ "t_grass_long", 2 ], "t_dirt", "t_shrub" ],
-        "'": "t_dirt",
-        "X": "t_grass",
-        "S": "t_grass",
-        "p": "t_grass",
-        "1": "t_window",
-        "2": "t_sidewalk",
-        "3": "t_tree_young",
-        "E": "t_dirtfloor",
-        "G": "t_dirtfloor",
-        "i": "t_column",
-        "r": "t_pavement",
-        "U": "t_pavement",
-        "y": "t_pavement_y",
-        "|": "t_wall_wood",
-        "5": "t_gutter_downspout"
-      },
-      "furniture": {
-        "'": "f_street_light",
-        "A": "f_rack",
-        "C": "f_counter",
-        "D": "f_sink",
-        "E": "f_sink",
-        "F": "f_chair",
-        "G": "f_locker",
-        "H": "f_table",
-        "I": "f_sofa",
-        "X": "f_birdbath",
-        "U": [ "f_dumpster", "f_recycle_bin" ],
-        "p": [ "f_datura", "f_bluebell", "f_mutpoppy", "f_dahlia", "f_flower_tulip", "f_chamomile", "f_flower_spurge", "f_lily" ],
-        "S": "f_statue"
-      },
-      "toilets": { "B": {  } },
-      "place_loot": [ { "item": "american_flag", "x": 15, "y": 14, "chance": 100 } ],
-      "place_items": [
-        { "item": "vfw_tools", "x": 11, "y": 10, "chance": 15, "repeat": [ 1, 2 ] },
-        { "item": "vfw_tools", "x": 11, "y": 12, "chance": 15, "repeat": [ 1, 2 ] },
-        { "item": "vfw_books", "x": 2, "y": 13, "chance": 10, "repeat": [ 1, 2 ] },
-        { "item": "vfw_books", "x": 11, "y": 13, "chance": 10, "repeat": [ 1, 2 ] },
-        { "item": "vfw_books", "x": 11, "y": 14, "chance": 10, "repeat": [ 1, 2 ] },
-        { "item": "vfw_alcohol", "x": 16, "y": [ 17, 19 ], "chance": 35, "repeat": [ 1, 3 ] },
-        { "item": "vfw_alcohol", "x": 19, "y": [ 17, 19 ], "chance": 35, "repeat": [ 1, 3 ] }
-      ],
-      "place_vehicles": [ { "vehicle": "tank_m60_patton_mothballed", "x": 17, "y": 4, "chance": 95, "rotation": 270 } ]
+      "place_vehicles": [ { "vehicle": "tankmod_garage_restoration", "x": 6, "y": [ 4, 5 ], "chance": 90, "rotation": 270 } ]
     }
   },
   {
