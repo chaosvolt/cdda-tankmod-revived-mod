@@ -1244,13 +1244,13 @@
     "id": "tank_m60_patton",
     "name": "M60 Patton Main Battle Tank",
     "blueprint": [
-      [ "oooooooooo  " ],
-      [ "|||-+-|+||  " ],
-      [ "=|--#--#||  " ],
-      [ "=|-=.#------" ],
-      [ "=|--#--|||  " ],
-      [ "|||-+-||||  " ],
-      [ "oooooooooo  " ]
+      [ "oooooooooo " ],
+      [ "|||-+-|+|| " ],
+      [ "=|--#--#|| " ],
+      [ "=|-=.#-----" ],
+      [ "=|--#--||| " ],
+      [ "|||-+-|||| " ],
+      [ "oooooooooo " ]
     ],
     "parts": [
       { "x": -7, "y": -2, "parts": [ "hdframe#vertical_2" ] },
@@ -1530,13 +1530,13 @@
     "//": "Variant with no secondary armament, fuel, or items.  Implied to have been shelved or on display.",
     "name": "M60 Patton Main Battle Tank",
     "blueprint": [
-      [ "oooooooooo  " ],
-      [ "|||-+-|+||  " ],
-      [ "=|--#--#||  " ],
-      [ "=|-=.#------" ],
-      [ "=|--#--|||  " ],
-      [ "|||-+-||||  " ],
-      [ "oooooooooo  " ]
+      [ "oooooooooo " ],
+      [ "|||-+-|+|| " ],
+      [ "=|--#--#|| " ],
+      [ "=|-=.#-----" ],
+      [ "=|--#--||| " ],
+      [ "|||-+-|||| " ],
+      [ "oooooooooo " ]
     ],
     "parts": [
       { "x": -7, "y": -2, "parts": [ "hdframe#vertical_2" ] },
