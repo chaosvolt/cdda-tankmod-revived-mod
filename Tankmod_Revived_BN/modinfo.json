@@ -6,7 +6,7 @@
     "authors": [ "Chaosvolt" ],
     "maintainers": [ "Chaosvolt" ],
     "description": "The intended successor of my older, obsoleted Tanks and Other Vehicles mod.",
-    "version": "BN version, update 12/27/2023",
+    "version": "BN version, update 1/7/2023",
     "category": "vehicles",
     "dependencies": [ "bn" ]
   }
