@@ -46,7 +46,7 @@
     "melee_damage": { "bash": 1 },
     "ammo_type": "25mm",
     "casing": "25mm_casing",
-    "damage": { "damage_type": "bullet", "amount": 300, "armor_penetration": 150 },
+    "damage": { "damage_type": "bullet", "amount": 200, "armor_penetration": 75 },
     "range": 60,
     "dispersion": 150,
     "recoil": 49500,
@@ -71,7 +71,7 @@
     "melee_damage": { "bash": 1 },
     "ammo_type": "25mm",
     "casing": "25mm_casing",
-    "damage": { "damage_type": "bullet", "amount": 250, "armor_penetration": 250 },
+    "damage": { "damage_type": "bullet", "amount": 175, "armor_penetration": 150 },
     "range": 60,
     "dispersion": 125,
     "recoil": 43750,
@@ -94,7 +94,7 @@
     "melee_damage": { "bash": 1 },
     "ammo_type": "25mm",
     "casing": "25mm_casing",
-    "damage": { "damage_type": "bullet", "amount": 200, "armor_penetration": 50 },
+    "damage": { "damage_type": "bullet", "amount": 125, "armor_penetration": 50 },
     "range": 30,
     "dispersion": 200,
     "recoil": 52000,
@@ -118,7 +118,7 @@
     "proportional": {
       "price_postapoc": 1.25,
       "weight": 0.9,
-      "damage": { "damage_type": "bullet", "amount": 0.75, "armor_penetration": 0.75 },
+      "damage": { "damage_type": "bullet", "amount": 0.9, "armor_penetration": 0.75 },
       "recoil": 0.75,
       "dispersion": 0.75
     },
@@ -225,7 +225,7 @@
     "proportional": {
       "price_postapoc": 1.25,
       "weight": 0.9,
-      "damage": { "damage_type": "bullet", "amount": 0.75, "armor_penetration": 0.75 },
+      "damage": { "damage_type": "bullet", "amount": 0.9, "armor_penetration": 0.75 },
       "recoil": 0.75,
       "dispersion": 0.75
     },
@@ -360,7 +360,7 @@
     "proportional": {
       "price_postapoc": 1.25,
       "weight": 0.9,
-      "damage": { "damage_type": "bullet", "amount": 0.75, "armor_penetration": 0.75 },
+      "damage": { "damage_type": "bullet", "amount": 0.9, "armor_penetration": 0.75 },
       "recoil": 0.75,
       "dispersion": 0.75
     },
@@ -488,7 +488,7 @@
     "proportional": {
       "price_postapoc": 1.25,
       "weight": 0.9,
-      "damage": { "damage_type": "bullet", "amount": 0.75, "armor_penetration": 0.75 },
+      "damage": { "damage_type": "bullet", "amount": 0.9, "armor_penetration": 0.75 },
       "recoil": 0.75,
       "dispersion": 0.75
     },
@@ -991,7 +991,7 @@
     "category": "veh_parts",
     "name": { "str": "Rubber Caterpillar Track" },
     "description": "A short, interlocking set of hard rubber tracks reinforced by stiff wire held in place by a set of smaller wheels.  Similar with what you might see used on light construction vehicles.  It's significantly stronger than regular tires due to not being at risk of bursting; but is quite heavy.",
-    "weight": "27216 g",
+    "weight": "25 kg",
     "volume": "50 L",
     "price": "255 USD",
     "price_postapoc": "8 USD",
@@ -1009,7 +1009,7 @@
     "category": "veh_parts",
     "name": { "str": "Steel Caterpillar Track" },
     "description": "A short, interlocking set of shaped steel tracks held in place by a set of smaller wheels.  Similar with what you might see used on large construction vehicles.  It's significantly stronger than regular tires due to not being at risk of bursting; but is very heavy.",
-    "weight": "63503 g",
+    "weight": "63 kg",
     "volume": "60 L",
     "price": "455 USD",
     "price_postapoc": "10 USD",
@@ -1027,7 +1027,7 @@
     "category": "veh_parts",
     "name": { "str": "Reinforced Caterpillar Track" },
     "description": "A short, interlocking set of shaped steel tracks held in place by a set of smaller wheels.  Similar with what you might see used on APCs and armored vehicles.  It's significantly stronger than regular tires due to not being at risk of bursting; but is extremely heavy.",
-    "weight": "287824 g",
+    "weight": "200 kg",
     "volume": "80 L",
     "price": "755 USD",
     "price_postapoc": "12 USD",
