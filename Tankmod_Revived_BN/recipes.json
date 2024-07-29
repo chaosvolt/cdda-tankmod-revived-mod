@@ -28,6 +28,7 @@
     "batch_time_factors": [ 50, 10 ],
     "book_learn": [ [ "textbook_launcher", 5 ], [ "recipe_bullets", 6 ], [ "textbook_anarch", 7 ] ],
     "charges": 1,
+    "reversible": true,
     "using": [ [ "bullet_forming", 5 ], [ "ammo_bullet", 30 ] ],
     "qualities": [ { "id": "WRENCH", "level": 1 } ],
     "components": [ [ [ "25mm_casing", 1 ] ], [ [ "gunpowder", 80 ], [ "gunpowder_rifle", 80 ] ], [ [ "lgrifle_primer", 1 ] ] ]
@@ -44,8 +45,8 @@
     "batch_time_factors": [ 50, 10 ],
     "book_learn": [ [ "textbook_launcher", 5 ], [ "recipe_bullets", 6 ], [ "textbook_anarch", 7 ] ],
     "charges": 1,
+    "reversible": true,
     "using": [ [ "bullet_forming", 5 ], [ "ammo_bullet", 30 ] ],
-    "qualities": [ { "id": "WRENCH", "level": 1 } ],
     "components": [ [ [ "25mm_casing", 1 ] ], [ [ "chem_black_powder", 80 ] ], [ [ "lgrifle_primer", 1 ] ] ]
   },
   {
@@ -59,8 +60,8 @@
     "time": "16 m",
     "book_learn": [ [ "textbook_launcher", 6 ], [ "recipe_bullets", 7 ], [ "textbook_anarch", 8 ] ],
     "charges": 1,
+    "reversible": true,
     "using": [ [ "welding_standard", 5 ], [ "steel_tiny", 1 ] ],
-    "qualities": [ { "id": "WRENCH", "level": 1 } ],
     "components": [
       [ [ "25mm_casing", 1 ] ],
       [ [ "gunpowder", 80 ], [ "gunpowder_rifle", 80 ] ],
@@ -80,8 +81,9 @@
     "time": "20 m",
     "book_learn": [ [ "textbook_launcher", 6 ], [ "recipe_bullets", 7 ], [ "textbook_anarch", 8 ] ],
     "charges": 1,
+    "reversible": true,
     "using": [ [ "welding_standard", 5 ], [ "steel_tiny", 1 ] ],
-    "qualities": [ { "id": "WRENCH", "level": 1 } ],
+    "tools": [ [ [ "press", -1 ] ] ],
     "components": [
       [ [ "25mm_casing", 1 ] ],
       [ [ "chem_black_powder", 80 ] ],
@@ -114,8 +116,8 @@
     "time": "28 m",
     "batch_time_factors": [ 50, 10 ],
     "book_learn": [ [ "textbook_launcher", 7 ], [ "textbook_anarch", 9 ] ],
+    "reversible": true,
     "using": [ [ "bullet_forming", 15 ], [ "ammo_bullet", 2000 ] ],
-    "qualities": [ { "id": "WRENCH", "level": 1 } ],
     "tools": [ [ [ "tongs", -1 ] ], [ [ "crucible", -1 ], [ "crucible_clay", -1 ] ] ],
     "components": [
       [ [ "105mm_casing", 1 ] ],
@@ -139,8 +141,8 @@
     "time": "28 m",
     "batch_time_factors": [ 50, 10 ],
     "book_learn": [ [ "textbook_launcher", 7 ], [ "textbook_anarch", 9 ] ],
+    "reversible": true,
     "using": [ [ "bullet_forming", 15 ], [ "ammo_bullet", 2000 ] ],
-    "qualities": [ { "id": "WRENCH", "level": 1 } ],
     "tools": [ [ [ "tongs", -1 ] ], [ [ "crucible", -1 ], [ "crucible_clay", -1 ] ] ],
     "components": [ [ [ "105mm_casing", 1 ] ], [ [ "electric_primer_120mm", 1 ] ], [ [ "chem_black_powder", 6000 ] ] ]
   },
@@ -154,8 +156,9 @@
     "difficulty": 8,
     "time": "30 m",
     "book_learn": [ [ "textbook_launcher", 8 ], [ "textbook_anarch", 10 ] ],
+    "reversible": true,
     "using": [ [ "welding_standard", 10 ], [ "steel_standard", 1 ] ],
-    "qualities": [ { "id": "WRENCH", "level": 1 } ],
+    "tools": [ [ [ "press", -1 ] ] ],
     "components": [
       [ [ "105mm_casing", 1 ] ],
       [ [ "electric_primer_120mm", 1 ] ],
@@ -179,8 +182,9 @@
     "difficulty": 8,
     "time": "30 m",
     "book_learn": [ [ "textbook_launcher", 8 ], [ "textbook_anarch", 10 ] ],
+    "reversible": true,
     "using": [ [ "welding_standard", 10 ], [ "steel_standard", 1 ] ],
-    "qualities": [ { "id": "WRENCH", "level": 1 } ],
+    "tools": [ [ [ "press", -1 ] ] ],
     "components": [
       [ [ "105mm_casing", 1 ] ],
       [ [ "electric_primer_120mm", 1 ] ],
@@ -200,8 +204,9 @@
     "time": "25 m",
     "batch_time_factors": [ 50, 10 ],
     "book_learn": [ [ "textbook_launcher", 6 ], [ "textbook_anarch", 8 ] ],
+    "reversible": true,
     "using": [ [ "bullet_forming", 30 ], [ "ammo_bullet", 3000 ] ],
-    "qualities": [ { "id": "WRENCH", "level": 1 } ],
+    "tools": [ [ [ "tongs", -1 ] ], [ [ "crucible", -1 ], [ "crucible_clay", -1 ] ] ],
     "components": [
       [ [ "120mm_casing", 1 ] ],
       [ [ "electric_primer_120mm", 1 ] ],
@@ -225,8 +230,9 @@
     "time": "25 m",
     "batch_time_factors": [ 50, 10 ],
     "book_learn": [ [ "textbook_launcher", 6 ], [ "textbook_anarch", 8 ] ],
+    "reversible": true,
     "using": [ [ "bullet_forming", 30 ], [ "ammo_bullet", 3000 ] ],
-    "qualities": [ { "id": "WRENCH", "level": 1 } ],
+    "tools": [ [ [ "tongs", -1 ] ], [ [ "crucible", -1 ], [ "crucible_clay", -1 ] ] ],
     "components": [ [ [ "120mm_casing", 1 ] ], [ [ "electric_primer_120mm", 1 ] ], [ [ "chem_black_powder", 8000 ] ], [ [ "paper", 5 ] ] ]
   },
   {
@@ -240,8 +246,8 @@
     "time": "28 m",
     "batch_time_factors": [ 50, 10 ],
     "book_learn": [ [ "textbook_launcher", 7 ], [ "textbook_anarch", 9 ] ],
+    "reversible": true,
     "using": [ [ "bullet_forming", 30 ], [ "ammo_bullet", 3000 ] ],
-    "qualities": [ { "id": "WRENCH", "level": 1 } ],
     "tools": [ [ [ "tongs", -1 ] ], [ [ "crucible", -1 ], [ "crucible_clay", -1 ] ] ],
     "components": [
       [ [ "120mm_casing", 1 ] ],
@@ -265,8 +271,8 @@
     "time": "28 m",
     "batch_time_factors": [ 50, 10 ],
     "book_learn": [ [ "textbook_launcher", 7 ], [ "textbook_anarch", 9 ] ],
+    "reversible": true,
     "using": [ [ "bullet_forming", 30 ], [ "ammo_bullet", 3000 ] ],
-    "qualities": [ { "id": "WRENCH", "level": 1 } ],
     "tools": [ [ [ "tongs", -1 ] ], [ [ "crucible", -1 ], [ "crucible_clay", -1 ] ] ],
     "components": [ [ [ "120mm_casing", 1 ] ], [ [ "electric_primer_120mm", 1 ] ], [ [ "chem_black_powder", 8000 ] ] ]
   },
@@ -280,8 +286,9 @@
     "difficulty": 8,
     "time": "30 m",
     "book_learn": [ [ "textbook_launcher", 8 ], [ "textbook_anarch", 10 ] ],
+    "reversible": true,
     "using": [ [ "welding_standard", 20 ], [ "steel_standard", 2 ] ],
-    "qualities": [ { "id": "WRENCH", "level": 1 } ],
+    "tools": [ [ [ "press", -1 ] ] ],
     "components": [
       [ [ "120mm_casing", 1 ] ],
       [ [ "electric_primer_120mm", 1 ] ],
@@ -305,8 +312,9 @@
     "difficulty": 8,
     "time": "30 m",
     "book_learn": [ [ "textbook_launcher", 8 ], [ "textbook_anarch", 10 ] ],
+    "reversible": true,
     "using": [ [ "welding_standard", 20 ], [ "steel_standard", 2 ] ],
-    "qualities": [ { "id": "WRENCH", "level": 1 } ],
+    "tools": [ [ [ "press", -1 ] ] ],
     "components": [
       [ [ "120mm_casing", 1 ] ],
       [ [ "electric_primer_120mm", 1 ] ],
@@ -326,7 +334,9 @@
     "time": "30 m",
     "batch_time_factors": [ 50, 10 ],
     "book_learn": [ [ "textbook_launcher", 5 ], [ "textbook_anarch", 6 ] ],
+    "reversible": true,
     "using": [ [ "bullet_forming", 50 ], [ "ammo_bullet", 7000 ] ],
+    "tools": [ [ [ "tongs", -1 ] ], [ [ "crucible", -1 ], [ "crucible_clay", -1 ] ] ],
     "components": [
       [ [ "primer_155mm", 1 ] ],
       [
@@ -349,7 +359,9 @@
     "time": "30 m",
     "batch_time_factors": [ 50, 10 ],
     "book_learn": [ [ "textbook_launcher", 5 ], [ "textbook_anarch", 6 ] ],
+    "reversible": true,
     "using": [ [ "bullet_forming", 50 ], [ "ammo_bullet", 7000 ] ],
+    "tools": [ [ [ "tongs", -1 ] ], [ [ "crucible", -1 ], [ "crucible_clay", -1 ] ] ],
     "components": [ [ [ "primer_155mm", 1 ] ], [ [ "chem_black_powder", 12000 ] ], [ [ "paper", 12 ] ] ]
   },
   {
@@ -363,6 +375,7 @@
     "time": "33 m",
     "batch_time_factors": [ 50, 10 ],
     "book_learn": [ [ "textbook_launcher", 6 ], [ "textbook_anarch", 8 ] ],
+    "reversible": true,
     "using": [ [ "bullet_forming", 50 ], [ "ammo_bullet", 7000 ] ],
     "tools": [ [ [ "tongs", -1 ] ], [ [ "crucible", -1 ], [ "crucible_clay", -1 ] ] ],
     "components": [
@@ -387,6 +400,7 @@
     "time": "33 m",
     "batch_time_factors": [ 50, 10 ],
     "book_learn": [ [ "textbook_launcher", 6 ], [ "textbook_anarch", 8 ] ],
+    "reversible": true,
     "using": [ [ "bullet_forming", 50 ], [ "ammo_bullet", 7000 ] ],
     "tools": [ [ [ "tongs", -1 ] ], [ [ "crucible", -1 ], [ "crucible_clay", -1 ] ] ],
     "components": [ [ [ "primer_155mm", 1 ] ], [ [ "chem_black_powder", 12000 ] ], [ [ "paper", 6 ] ] ]
@@ -401,7 +415,9 @@
     "difficulty": 6,
     "time": "40 m",
     "book_learn": [ [ "textbook_launcher", 7 ], [ "textbook_anarch", 9 ] ],
+    "reversible": true,
     "using": [ [ "welding_standard", 40 ], [ "steel_standard", 4 ] ],
+    "tools": [ [ [ "press", -1 ] ] ],
     "components": [
       [ [ "primer_155mm", 1 ] ],
       [
@@ -425,7 +441,9 @@
     "difficulty": 5,
     "time": "40 m",
     "book_learn": [ [ "textbook_launcher", 7 ], [ "textbook_anarch", 9 ] ],
+    "reversible": true,
     "using": [ [ "welding_standard", 40 ], [ "steel_standard", 4 ] ],
+    "tools": [ [ [ "press", -1 ] ] ],
     "components": [
       [ [ "primer_155mm", 1 ] ],
       [ [ "chem_black_powder", 12000 ] ],
@@ -445,8 +463,10 @@
     "time": "45 m",
     "batch_time_factors": [ 50, 10 ],
     "book_learn": [ [ "textbook_atomic_lab", 7 ] ],
+    "reversible": true,
     "using": [ [ "welding_standard", 25 ] ],
     "qualities": [ { "id": "SAW_M", "level": 1 }, { "id": "SCREW_FINE", "level": 1 } ],
+    "tools": [ [ [ "press", -1 ] ] ],
     "components": [
       [ [ "mininuke", 1 ] ],
       [ [ "primer_155mm", 1 ] ],
@@ -470,7 +490,7 @@
     "time": "45 m",
     "book_learn": [ [ "textbook_launcher", 5 ], [ "recipe_bullets", 6 ], [ "textbook_anarch", 7 ] ],
     "qualities": [ { "id": "HAMMER", "level": 3 } ],
-    "tools": [ [ [ "swage", -1 ] ], [ [ "press", -1 ] ] ],
+    "tools": [ [ [ "swage", -1 ] ] ],
     "components": [
       [ [ "can_drink", 2 ], [ "can_food", 2 ], [ "scrap", 4 ] ],
       [ [ "cable", 2 ] ],
@@ -488,7 +508,7 @@
     "time": "45 m",
     "book_learn": [ [ "textbook_launcher", 6 ], [ "recipe_bullets", 7 ], [ "textbook_anarch", 8 ] ],
     "qualities": [ { "id": "HAMMER", "level": 3 } ],
-    "tools": [ [ [ "swage", -1 ] ], [ [ "press", -1 ] ] ],
+    "tools": [ [ [ "swage", -1 ] ] ],
     "components": [
       [ [ "can_drink", 3 ], [ "can_food", 3 ], [ "scrap", 6 ] ],
       [ [ "chem_black_powder", 10 ], [ "chem_match_head_powder", 10 ] ],
