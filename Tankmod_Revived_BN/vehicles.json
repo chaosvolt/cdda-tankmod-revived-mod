@@ -919,7 +919,7 @@
         "y": 0,
         "part": "mounted_bigun",
         "ammo": 80,
-        "ammo_types": [ "shot_00", "reloaded_shot_00", "bp_shot_00" ],
+        "ammo_types": [ "shot_00", "shot_slug", "shot_scrap", "bp_shot_00", "bp_shot_slug" ],
         "ammo_qty": [ 5, 20 ]
       },
       { "x": 0, "y": 0, "part": "controls" },
@@ -1333,7 +1333,15 @@
       {
         "x": -1,
         "y": 1,
-        "parts": [ "hdframe_vertical_2", "seat", "seatbelt_heavyduty", "cam_control", "turret_mount", { "part": "mounted_browning", "ammo": 80, "ammo_qty": [ 10, 100 ] }, "hdroof" ]
+        "parts": [
+          "hdframe_vertical_2",
+          "seat",
+          "seatbelt_heavyduty",
+          "cam_control",
+          "turret_mount",
+          { "part": "mounted_browning", "ammo": 80, "ammo_qty": [ 10, 100 ] },
+          "hdroof"
+        ]
       },
       { "x": 0, "y": 1, "parts": [ "hdframe_vertical_2", "hdboard_sw", "plating_military" ] },
       { "x": 1, "y": 1, "parts": [ "hdframe_vertical_2", "hdboard_ne", "plating_military" ] },
@@ -1371,19 +1379,14 @@
     ],
     "items": [
       { "x": -2, "y": 0, "chance": 100, "item_groups": [ "m60_patton_ammo_rack" ] },
-
       { "x": -1, "y": -1, "chance": 25, "items": [ "ear_plugs" ] },
       { "x": -1, "y": -1, "chance": 25, "items": [ "105mm_heat" ] },
-
       { "x": 0, "y": 0, "chance": 25, "items": [ "ear_plugs" ] },
       { "x": 0, "y": 0, "chance": 25, "items": [ "105mm_heat" ] },
-
       { "x": 2, "y": -1, "chance": 25, "items": [ "ear_plugs" ] },
-
       { "x": -1, "y": 1, "chance": 25, "items": [ "ear_plugs" ] },
       { "x": -1, "y": 1, "chance": 25, "items": [ "belt50" ] },
       { "x": -1, "y": 1, "chance": 2, "items": [ "id_military" ] },
-
       { "x": -5, "y": -1, "chance": 100, "item_groups": [ "m60_patton_ammo_rack" ] },
       { "x": -5, "y": 0, "chance": 50, "item_groups": [ "tools_survival" ] },
       { "x": -5, "y": 0, "chance": 50, "item_groups": [ "infantry_common_gear" ] },
@@ -1562,7 +1565,6 @@
       { "x": 2, "y": -2, "part": "hdframe_vertical_2" },
       { "x": 2, "y": -2, "part": "tread3" },
       { "x": 2, "y": -2, "part": "plating_military" },
-
       { "x": -3, "y": -1, "part": "hdframe_vertical_2" },
       { "x": -3, "y": -1, "part": "trunk" },
       { "x": -3, "y": -1, "part": "omnicam" },
@@ -1588,7 +1590,6 @@
       { "x": 2, "y": -1, "part": "omnicam" },
       { "x": 2, "y": -1, "part": "headlight_reinforced" },
       { "x": 2, "y": -1, "part": "plating_military" },
-
       { "x": -3, "y": 0, "part": "hdframe_vertical_2" },
       { "x": -3, "y": 0, "part": "hdhalfboard_horizontal_2" },
       { "x": -3, "y": 0, "part": "plating_military" },
@@ -1630,7 +1631,6 @@
       { "x": 3, "y": 0, "part": "hdhalfboard_vertical" },
       { "x": 3, "y": 0, "part": "hdroof" },
       { "x": 3, "y": 0, "part": "plating_military" },
-
       { "x": -3, "y": 1, "part": "hdframe_vertical_2" },
       { "x": -3, "y": 1, "part": "trunk" },
       { "x": -3, "y": 1, "part": "omnicam" },
@@ -1659,7 +1659,6 @@
       { "x": 2, "y": 1, "part": "omnicam" },
       { "x": 2, "y": 1, "part": "headlight_reinforced" },
       { "x": 2, "y": 1, "part": "plating_military" },
-
       { "x": -3, "y": 2, "part": "hdframe_vertical_2" },
       { "x": -3, "y": 2, "part": "tread3" },
       { "x": -3, "y": 2, "part": "plating_military" },
