@@ -103,8 +103,15 @@
       { "x": -3, "y": 0, "part": "seat" },
       { "x": -3, "y": 0, "part": "seatbelt_heavyduty" },
       { "x": -3, "y": 0, "part": "cam_control" },
-      { "x": -3, "y": 0, "part": "turret_mount" },
-      { "x": -3, "y": 0, "part": "mounted_m240", "ammo": 80, "ammo_types": [ "762_51" ], "ammo_qty": [ 10, 100 ] },
+      { "x": -3, "y": 0, "part": "turret_mount_manual_steel" },
+      {
+        "x": -3,
+        "y": 0,
+        "part": "mounted_m240_manual",
+        "ammo": 80,
+        "ammo_types": [ "762_51" ],
+        "ammo_qty": [ 10, 100 ]
+      },
       { "x": -3, "y": 0, "part": "hdroof" },
       { "x": -2, "y": 0, "part": "hdframe_vertical_2" },
       { "x": -2, "y": 0, "part": "hdboard_se" },
@@ -195,8 +202,8 @@
       { "x": -3, "y": 2, "part": "seatbelt_heavyduty" },
       { "x": -3, "y": 2, "part": "cam_control" },
       { "x": -3, "y": 2, "part": "controls_electronic" },
-      { "x": -3, "y": 2, "part": "turret_mount" },
-      { "x": -3, "y": 2, "part": "mounted_browning", "ammo": 80, "ammo_qty": [ 10, 100 ] },
+      { "x": -3, "y": 2, "part": "turret_mount_manual_steel" },
+      { "x": -3, "y": 2, "part": "mounted_browning_manual", "ammo": 80, "ammo_qty": [ 10, 100 ] },
       { "x": -3, "y": 2, "part": "hdroof" },
       { "x": -2, "y": 2, "part": "hdframe_vertical_2" },
       { "x": -2, "y": 2, "part": "hdboard_sw" },
@@ -469,8 +476,8 @@
       { "x": -3, "y": 2, "part": "seatbelt_heavyduty" },
       { "x": -3, "y": 2, "part": "cam_control" },
       { "x": -3, "y": 2, "part": "controls_electronic" },
-      { "x": -3, "y": 2, "part": "turret_mount" },
-      { "x": -3, "y": 2, "part": "mounted_browning", "ammo": 80, "ammo_qty": [ 10, 100 ] },
+      { "x": -3, "y": 2, "part": "turret_mount_manual_steel" },
+      { "x": -3, "y": 2, "part": "mounted_browning_manual", "ammo": 80, "ammo_qty": [ 10, 100 ] },
       { "x": -3, "y": 2, "part": "hdroof" },
       { "x": -2, "y": 2, "part": "hdframe_vertical_2" },
       { "x": -2, "y": 2, "part": "hdboard_sw" },
@@ -879,11 +886,11 @@
       { "x": 2, "y": -2, "part": "frame_horizontal" },
       { "x": 2, "y": -2, "part": "tread2" },
       { "x": 2, "y": -2, "part": "seat" },
-      { "x": 2, "y": -2, "part": "turret_mount" },
+      { "x": 2, "y": -2, "part": "turret_mount_manual_steel" },
       {
         "x": 2,
         "y": -2,
-        "part": "mounted_25mm_autocannon_sawn",
+        "part": "mounted_25mm_autocannon_sawn_manual",
         "ammo": 80,
         "ammo_types": [ "25mm_hei", "25mm_slug", "bp_25mm_slug" ]
       },
@@ -913,14 +920,14 @@
       { "x": -1, "y": 0, "part": "roof" },
       { "x": 0, "y": 0, "part": "frame_horizontal" },
       { "x": 0, "y": 0, "part": "seat" },
-      { "x": 0, "y": 0, "part": "turret_mount" },
+      { "x": 0, "y": 0, "part": "turret_mount_manual_steel" },
       {
         "x": 0,
         "y": 0,
-        "part": "mounted_bigun",
+        "part": "mounted_m240_manual",
         "ammo": 80,
-        "ammo_types": [ "shot_00", "shot_slug", "shot_scrap", "bp_shot_00", "bp_shot_slug" ],
-        "ammo_qty": [ 5, 20 ]
+        "ammo_types": [ "308", "762_51", "bp_308", "bp_762_51" ],
+        "ammo_qty": [ 10, 100 ]
       },
       { "x": 0, "y": 0, "part": "controls" },
       { "x": 0, "y": 0, "part": "dashboard" },
@@ -969,7 +976,7 @@
     ],
     "items": [
       { "x": -1, "y": 0, "chance": 25, "item_groups": "fuel_gasoline" },
-      { "x": -1, "y": 0, "chance": 100, "item_groups": "killdozer_ammo_shot" },
+      { "x": -1, "y": 0, "chance": 100, "item_groups": "killdozer_ammo_mg" },
       { "x": 1, "y": -2, "chance": 100, "item_groups": "killdozer_ammo_cannon" }
     ]
   },
@@ -1338,8 +1345,8 @@
           "seat",
           "seatbelt_heavyduty",
           "cam_control",
-          "turret_mount",
-          { "part": "mounted_browning", "ammo": 80, "ammo_qty": [ 10, 100 ] },
+          "turret_mount_manual_steel",
+          { "part": "mounted_browning_manual", "ammo": 80, "ammo_qty": [ 10, 100 ] },
           "hdroof"
         ]
       },
@@ -1498,7 +1505,7 @@
       {
         "x": -1,
         "y": 1,
-        "parts": [ "hdframe_vertical_2", "seat", "seatbelt_heavyduty", "cam_control", "turret_mount", "hdroof" ]
+        "parts": [ "hdframe_vertical_2", "seat", "seatbelt_heavyduty", "cam_control", "turret_mount_manual_steel", "hdroof" ]
       },
       { "x": 0, "y": 1, "parts": [ "hdframe_vertical_2", "hdboard_sw", "plating_military" ] },
       { "x": 1, "y": 1, "parts": [ "hdframe_vertical_2", "hdboard_ne", "plating_military" ] },
