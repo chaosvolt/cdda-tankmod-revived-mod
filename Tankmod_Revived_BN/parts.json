@@ -113,15 +113,6 @@
     }
   },
   {
-    "id": "mounted_howitzer_manual",
-    "//": "Only allow manual turrets for guns that don't draw from vehicle batteries or fuel tanks.",
-    "copy-from": "mounted_howitzer",
-    "type": "vehicle_part",
-    "name": { "str": "155mm howitzer (manual)" },
-    "looks_like": "mounted_howitzer",
-    "flags": [ "TURRET_MANUAL" ]
-  },
-  {
     "type": "vehicle_part",
     "id": "mounted_howitzer_crude",
     "looks_like": "mounted_howitzer",
@@ -139,14 +130,6 @@
       },
       "repair": { "skills": [ [ "mechanics", 8 ] ], "time": "60 m", "using": [ [ "welding_standard", 5 ], [ "steel_standard", 1 ] ] }
     }
-  },
-  {
-    "id": "mounted_howitzer_crude_manual",
-    "copy-from": "mounted_howitzer_crude",
-    "type": "vehicle_part",
-    "name": { "str": "makeshift 155mm howitzer (manual)" },
-    "looks_like": "mounted_howitzer_crude",
-    "flags": [ "TURRET_MANUAL" ]
   },
   {
     "type": "vehicle_part",
@@ -194,14 +177,6 @@
     }
   },
   {
-    "id": "mounted_25mm_autocannon_sawn_manual",
-    "copy-from": "mounted_25mm_autocannon_sawn",
-    "type": "vehicle_part",
-    "name": { "str": "stripped-down 25mm gun (manual)" },
-    "looks_like": "mounted_25mm_autocannon_sawn",
-    "flags": [ "TURRET_MANUAL" ]
-  },
-  {
     "type": "vehicle_part",
     "id": "mounted_25mm_autocannon_crude",
     "looks_like": "mounted_25mm_autocannon_sawn",
@@ -219,13 +194,5 @@
       },
       "repair": { "skills": [ [ "mechanics", 8 ] ], "time": "60 m", "using": [ [ "welding_standard", 5 ], [ "steel_tiny", 2 ] ] }
     }
-  },
-  {
-    "id": "mounted_25mm_autocannon_crude_manual",
-    "copy-from": "mounted_25mm_autocannon_crude",
-    "type": "vehicle_part",
-    "name": { "str": "makeshift 25mm cannon (manual)" },
-    "looks_like": "mounted_25mm_autocannon_crude",
-    "flags": [ "TURRET_MANUAL" ]
   }
 ]

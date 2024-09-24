@@ -883,7 +883,7 @@
       {
         "x": 2,
         "y": -2,
-        "part": "mounted_25mm_autocannon_sawn_manual",
+        "part": "mounted_25mm_autocannon_sawn",
         "ammo": 80,
         "ammo_types": [ "25mm_hei", "25mm_slug", "bp_25mm_slug" ]
       },
@@ -917,10 +917,10 @@
       {
         "x": 0,
         "y": 0,
-        "part": "mounted_m240_manual",
+        "part": "mounted_bigun",
         "ammo": 80,
-        "ammo_types": [ "308", "762_51", "bp_308", "bp_762_51" ],
-        "ammo_qty": [ 10, 100 ]
+        "ammo_types": [ "shot_00", "shot_slug", "shot_scrap", "bp_shot_00", "bp_shot_slug" ],
+        "ammo_qty": [ 5, 20 ]
       },
       { "x": 0, "y": 0, "part": "controls" },
       { "x": 0, "y": 0, "part": "dashboard" },
@@ -969,7 +969,7 @@
     ],
     "items": [
       { "x": -1, "y": 0, "chance": 25, "item_groups": "fuel_gasoline" },
-      { "x": -1, "y": 0, "chance": 100, "item_groups": "killdozer_ammo_mg" },
+      { "x": -1, "y": 0, "chance": 100, "item_groups": "killdozer_ammo_shot" },
       { "x": 1, "y": -2, "chance": 100, "item_groups": "killdozer_ammo_cannon" }
     ]
   },
@@ -1316,7 +1316,7 @@
           "seat",
           "seatbelt_heavyduty",
           "cam_control",
-          "turret_mount",
+          "turret_mount_manual_steel",
           { "part": "mounted_tank_manual_105mm", "ammo_types": [ "105mm_heat", "105mm_ap" ], "ammo": 80 },
           "hdroof"
         ]
@@ -1339,7 +1339,7 @@
           "seatbelt_heavyduty",
           "cam_control",
           "turret_mount_manual_steel",
-          { "part": "mounted_browning_manual", "ammo": 80, "ammo_qty": [ 10, 100 ] },
+          { "part": "mounted_browning", "ammo": 80, "ammo_qty": [ 10, 100 ] },
           "hdroof"
         ]
       },
@@ -1481,7 +1481,7 @@
           "seat",
           "seatbelt_heavyduty",
           "cam_control",
-          "turret_mount",
+          "turret_mount_manual_steel",
           "mounted_tank_manual_105mm",
           "hdroof"
         ]

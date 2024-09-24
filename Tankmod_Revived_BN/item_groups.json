@@ -230,22 +230,23 @@
   },
   {
     "type": "item_group",
-    "id": "killdozer_ammo_mg",
+    "id": "killdozer_ammo_shot",
     "subtype": "collection",
     "entries": [
-      { "item": "belt308", "contents-group": "killdozer_rifle_bullets", "prob": 75 },
-      { "item": "belt308", "contents-group": "killdozer_rifle_bullets", "prob": 75 },
-      { "item": "belt308", "contents-group": "killdozer_rifle_bullets", "prob": 75 }
+      { "item": "shotbelt_20", "contents-group": "killdozer_shells", "prob": 75 },
+      { "item": "shotbelt_20", "contents-group": "killdozer_shells", "prob": 75 },
+      { "item": "shotbelt_20", "contents-group": "killdozer_shells", "prob": 75 }
     ]
   },
   {
     "type": "item_group",
-    "id": "killdozer_rifle_bullets",
+    "id": "killdozer_shells",
     "items": [
-      { "item": "308", "prob": 30, "charges": [ 10, 100 ] },
-      { "item": "762_51", "prob": 20, "charges": [ 10, 100 ] },
-      { "item": "bp_308", "prob": 30, "charges": [ 10, 100 ] },
-      { "item": "bp_762_51", "prob": 20, "charges": [ 10, 100 ] }
+      { "item": "shot_00", "prob": 30, "charges": [ 1, 20 ] },
+      { "item": "shot_slug", "prob": 20, "charges": [ 1, 20 ] },
+      { "item": "shot_scrap", "prob": 25, "charges": [ 1, 20 ] },
+      { "item": "bp_shot_00", "prob": 15, "charges": [ 1, 20 ] },
+      { "item": "bp_shot_slug", "prob": 10, "charges": [ 1, 20 ] }
     ]
   },
   {
