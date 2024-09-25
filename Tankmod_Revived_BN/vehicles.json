@@ -879,7 +879,7 @@
       { "x": 2, "y": -2, "part": "frame_horizontal" },
       { "x": 2, "y": -2, "part": "tread2" },
       { "x": 2, "y": -2, "part": "seat" },
-      { "x": 2, "y": -2, "part": "turret_mount" },
+      { "x": 2, "y": -2, "part": "turret_mount_manual_steel" },
       {
         "x": 2,
         "y": -2,
@@ -913,7 +913,7 @@
       { "x": -1, "y": 0, "part": "roof" },
       { "x": 0, "y": 0, "part": "frame_horizontal" },
       { "x": 0, "y": 0, "part": "seat" },
-      { "x": 0, "y": 0, "part": "turret_mount" },
+      { "x": 0, "y": 0, "part": "turret_mount_manual_steel" },
       {
         "x": 0,
         "y": 0,
@@ -1316,7 +1316,7 @@
           "seat",
           "seatbelt_heavyduty",
           "cam_control",
-          "turret_mount",
+          "turret_mount_manual_steel",
           { "part": "mounted_tank_manual_105mm", "ammo_types": [ "105mm_heat", "105mm_ap" ], "ammo": 80 },
           "hdroof"
         ]
@@ -1338,7 +1338,7 @@
           "seat",
           "seatbelt_heavyduty",
           "cam_control",
-          "turret_mount",
+          "turret_mount_manual_steel",
           { "part": "mounted_browning", "ammo": 80, "ammo_qty": [ 10, 100 ] },
           "hdroof"
         ]
@@ -1481,7 +1481,7 @@
           "seat",
           "seatbelt_heavyduty",
           "cam_control",
-          "turret_mount",
+          "turret_mount_manual_steel",
           "mounted_tank_manual_105mm",
           "hdroof"
         ]
@@ -1498,7 +1498,7 @@
       {
         "x": -1,
         "y": 1,
-        "parts": [ "hdframe_vertical_2", "seat", "seatbelt_heavyduty", "cam_control", "turret_mount", "hdroof" ]
+        "parts": [ "hdframe_vertical_2", "seat", "seatbelt_heavyduty", "cam_control", "turret_mount_manual_steel", "hdroof" ]
       },
       { "x": 0, "y": 1, "parts": [ "hdframe_vertical_2", "hdboard_sw", "plating_military" ] },
       { "x": 1, "y": 1, "parts": [ "hdframe_vertical_2", "hdboard_ne", "plating_military" ] },

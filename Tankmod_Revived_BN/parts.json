@@ -181,7 +181,7 @@
     "id": "mounted_25mm_autocannon_crude",
     "looks_like": "mounted_25mm_autocannon_sawn",
     "copy-from": "turret_tank",
-    "name": "makeshift25mm cannon",
+    "name": "makeshift 25mm cannon",
     "item": "25mm_cannon_crude",
     "durability": 400,
     "damage_modifier": 40,
