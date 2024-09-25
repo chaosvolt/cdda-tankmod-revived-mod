@@ -3,12 +3,14 @@
     "abstract": "turret_tank",
     "type": "vehicle_part",
     "copy-from": "turret",
+    "folded_volume": "0 ml",
     "color": "green",
     "broken_symbol": "#",
     "broken_color": "green",
     "durability": 800,
     "damage_modifier": 120,
-    "requirements": { "removal": { "skills": [ [ "mechanics", 3 ] ], "time": "30 m", "using": [ [ "vehicle_bolt", 1 ] ] } }
+    "requirements": { "removal": { "skills": [ [ "mechanics", 3 ] ], "time": "30 m", "using": [ [ "vehicle_bolt", 1 ] ] } },
+    "delete": { "flags": [ "FOLDABLE" ] }
   },
   {
     "type": "vehicle_part",
