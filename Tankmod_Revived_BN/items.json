@@ -50,7 +50,6 @@
     "dispersion": 150,
     "recoil": 49500,
     "count": 15,
-    "flags": [ "IRREPLACEABLE_CONSUMABLE" ],
     "effects": [ "AMMO_25MM_HEI", "INCENDIARY" ],
     "explode_in_fire": true
   },
@@ -74,7 +73,6 @@
     "dispersion": 125,
     "recoil": 43750,
     "count": 15,
-    "flags": [ "IRREPLACEABLE_CONSUMABLE" ],
     "effects": [ "COOKOFF" ]
   },
   {
@@ -164,7 +162,6 @@
     "dispersion": 150,
     "recoil": 375000,
     "count": 1,
-    "flags": [ "IRREPLACEABLE_CONSUMABLE" ],
     "effects": [ "CUSTOM_EXPLOSION" ],
     "explode_in_fire": true,
     "explosion": { "damage": 100, "radius": 2 }
@@ -190,7 +187,6 @@
     "dispersion": 175,
     "recoil": 350000,
     "count": 1,
-    "flags": [ "IRREPLACEABLE_CONSUMABLE" ],
     "effects": [ "COOKOFF", "INCENDIARY" ]
   },
   {
@@ -279,7 +275,6 @@
     "dispersion": 200,
     "recoil": 900000,
     "count": 1,
-    "flags": [ "IRREPLACEABLE_CONSUMABLE" ],
     "effects": [ "CUSTOM_EXPLOSION" ],
     "explode_in_fire": true,
     "explosion": { "damage": 150, "radius": 3 }
@@ -304,7 +299,6 @@
     "dispersion": 225,
     "recoil": 787500,
     "count": 1,
-    "flags": [ "IRREPLACEABLE_CONSUMABLE" ],
     "effects": [ "COOKOFF", "INCENDIARY" ]
   },
   {
@@ -427,7 +421,6 @@
     "dispersion": 275,
     "recoil": 1031250,
     "count": 1,
-    "flags": [ "IRREPLACEABLE_CONSUMABLE" ],
     "effects": [ "CUSTOM_EXPLOSION" ],
     "explode_in_fire": true,
     "explosion": { "damage": 200, "radius": 5 }
@@ -451,7 +444,6 @@
     "dispersion": 300,
     "recoil": 1050000,
     "count": 1,
-    "flags": [ "IRREPLACEABLE_CONSUMABLE" ],
     "effects": [ "AMMO_155MM_FRAG" ],
     "explode_in_fire": true
   },
