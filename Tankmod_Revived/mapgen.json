@@ -318,7 +318,7 @@
         "H": "t_wall_glass",
         "e": "t_gates_mech_control",
         "|": "t_wall_b",
-        "W": "t_chainfence_h",
+        "W": "t_chainfence",
         "^": "t_chaingate_c",
         "M": "t_metal_floor",
         "#": "t_grate",
@@ -635,7 +635,7 @@
         "*": "t_door_c",
         "+": "t_chaingate_l",
         ",": "t_floor",
-        "-": "t_chainfence_h",
+        "-": "t_chainfence",
         "/": "t_concrete_wall",
         "0": "t_window",
         "6": "t_card_military",
@@ -645,7 +645,7 @@
         "M": "t_wall_metal",
         "C": "t_dirt",
         "S": "t_dirt",
-        "|": "t_chainfence_v"
+        "|": "t_chainfence"
       },
       "furniture": { "#": "f_table", "C": "f_crate_o", "S": "f_sandbag_half" },
       "place_loot": [
