@@ -629,13 +629,13 @@
     "skill_used": "fabrication",
     "difficulty": 5,
     "skills_required": [ "mechanics", 5 ],
-    "time": "30 h",
+    "time": "3 h",
     "autolearn": true,
     "book_learn": [ [ "textbook_fabrication", 3 ], [ "welding_book", 4 ], [ "textbook_carpentry", 3 ] ],
-    "using": [ [ "blacksmithing_standard", 10 ], [ "steel_standard", 12 ] ],
+    "using": [ [ "blacksmithing_standard", 10 ], [ "steel_standard", 10 ] ],
     "proficiencies": [ { "proficiency": "prof_metalworking" }, { "proficiency": "prof_blacksmithing" } ],
     "qualities": [ { "id": "CUT", "level": 1 } ],
-    "components": [ [ [ "chunk_rubber", 50 ] ], [ [ "wire", 14 ] ], [ [ "plastic_chunk", 150 ] ], [ [ "chain", 4 ] ] ]
+    "components": [ [ [ "chunk_rubber", 40 ] ], [ [ "wire", 10 ] ], [ [ "chain", 2 ] ] ]
   },
   {
     "result": "tread2",
@@ -646,12 +646,12 @@
     "skill_used": "fabrication",
     "difficulty": 6,
     "skills_required": [ "mechanics", 5 ],
-    "time": "40 h",
+    "time": "4 h",
     "autolearn": true,
     "book_learn": [ [ "textbook_fabrication", 4 ], [ "welding_book", 5 ], [ "textbook_carpentry", 4 ] ],
     "using": [ [ "blacksmithing_standard", 15 ], [ "steel_standard", 15 ] ],
     "proficiencies": [ { "proficiency": "prof_metalworking" }, { "proficiency": "prof_blacksmithing" } ],
-    "components": [ [ [ "steel_plate", 3 ] ], [ [ "chain", 6 ] ] ]
+    "components": [ [ [ "steel_plate", 3 ] ], [ [ "chain", 2 ] ] ]
   },
   {
     "result": "tread3",
@@ -662,11 +662,11 @@
     "skill_used": "fabrication",
     "difficulty": 7,
     "skills_required": [ "mechanics", 5 ],
-    "time": "50 h",
+    "time": "5 h",
     "autolearn": true,
     "book_learn": [ [ "textbook_fabrication", 5 ], [ "welding_book", 6 ], [ "textbook_carpentry", 5 ] ],
     "using": [ [ "blacksmithing_standard", 20 ], [ "steel_standard", 20 ] ],
     "proficiencies": [ { "proficiency": "prof_metalworking" }, { "proficiency": "prof_blacksmithing" } ],
-    "components": [ [ [ "hard_plate", 5 ] ], [ [ "chain", 8 ] ] ]
+    "components": [ [ [ "hard_plate", 5 ] ], [ [ "chain", 2 ] ] ]
   }
 ]
