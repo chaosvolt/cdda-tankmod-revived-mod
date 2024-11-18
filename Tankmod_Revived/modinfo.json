@@ -1,12 +1,12 @@
 [
   {
     "type": "MOD_INFO",
-    "ident": "Tankmod_Revived",
+    "id": "Tankmod_Revived",
     "name": "Tankmod: Revived",
     "authors": [ "Chaosvolt" ],
     "maintainers": [ "Chaosvolt" ],
     "description": "The intended successor of my older, obsoleted Tanks and Other Vehicles mod.",
-    "version": "DDA version, update 11/14/2024",
+    "version": "DDA version, update 11/18/2024",
     "category": "vehicles",
     "dependencies": [ "dda" ]
   }
