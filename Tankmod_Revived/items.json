@@ -601,7 +601,7 @@
     "description": "Primer for an artillery shell.  Uses percussion ignition.",
     "material": [ "steel", "powder" ],
     "volume": "250 ml",
-    "weight": "250 g",
+    "weight": "80 g",
     "ammo_type": "components",
     "count": 5,
     "effects": [ "COOKOFF" ]
