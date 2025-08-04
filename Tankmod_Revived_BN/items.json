@@ -50,7 +50,7 @@
     "dispersion": 150,
     "recoil": 49500,
     "count": 15,
-    "effects": [ "AMMO_25MM_HEI", "INCENDIARY" ],
+    "effects": [ "AMMO_25MM_HEI", "INCENDIARY", "NO_PENETRATE_OBSTACLES" ],
     "explode_in_fire": true
   },
   {
@@ -123,7 +123,7 @@
       "recoil": 0.75,
       "dispersion": 0.75
     },
-    "extend": { "effects": [ "CUSTOM_EXPLOSION" ] },
+    "extend": { "effects": [ "CUSTOM_EXPLOSION", "NO_PENETRATE_OBSTACLES" ] },
     "explode_in_fire": true,
     "explosion": { "damage": 25, "radius": 2 }
   },
@@ -162,7 +162,7 @@
     "dispersion": 150,
     "recoil": 375000,
     "count": 1,
-    "effects": [ "CUSTOM_EXPLOSION" ],
+    "effects": [ "CUSTOM_EXPLOSION", "NO_PENETRATE_OBSTACLES" ],
     "explode_in_fire": true,
     "explosion": { "damage": 100, "radius": 2 }
   },
@@ -237,7 +237,7 @@
       "recoil": 0.75,
       "dispersion": 0.75
     },
-    "extend": { "effects": [ "CUSTOM_EXPLOSION" ] },
+    "extend": { "effects": [ "CUSTOM_EXPLOSION", "NO_PENETRATE_OBSTACLES" ] },
     "explode_in_fire": true,
     "explosion": { "damage": 150, "radius": 4 }
   },
@@ -275,7 +275,7 @@
     "dispersion": 200,
     "recoil": 900000,
     "count": 1,
-    "effects": [ "CUSTOM_EXPLOSION" ],
+    "effects": [ "CUSTOM_EXPLOSION", "NO_PENETRATE_OBSTACLES" ],
     "explode_in_fire": true,
     "explosion": { "damage": 150, "radius": 3 }
   },
@@ -316,7 +316,8 @@
     "ammo_type": "120mm_usable",
     "casing": "120mm_casing",
     "damage": { "damage_type": "bullet", "amount": 1875 },
-    "range": 30,
+    "range": 0,
+    "shape": [ "cone", { "half_angle": 5, "length": 40 } ],
     "dispersion": 150,
     "recoil": 225000,
     "count": 1,
@@ -384,7 +385,7 @@
       "recoil": 0.75,
       "dispersion": 0.75
     },
-    "extend": { "effects": [ "CUSTOM_EXPLOSION" ] },
+    "extend": { "effects": [ "CUSTOM_EXPLOSION", "NO_PENETRATE_OBSTACLES" ] },
     "explode_in_fire": true,
     "explosion": { "damage": 200, "radius": 6 }
   },
@@ -421,7 +422,7 @@
     "dispersion": 275,
     "recoil": 1031250,
     "count": 1,
-    "effects": [ "CUSTOM_EXPLOSION" ],
+    "effects": [ "CUSTOM_EXPLOSION", "NO_PENETRATE_OBSTACLES" ],
     "explode_in_fire": true,
     "explosion": { "damage": 200, "radius": 5 }
   },
@@ -444,7 +445,7 @@
     "dispersion": 300,
     "recoil": 1050000,
     "count": 1,
-    "effects": [ "AMMO_155MM_FRAG" ],
+    "effects": [ "AMMO_155MM_FRAG", "NO_PENETRATE_OBSTACLES" ],
     "explode_in_fire": true
   },
   {
@@ -461,7 +462,8 @@
     "bashing": 1,
     "ammo_type": "155mm",
     "damage": { "damage_type": "bullet", "amount": 2500 },
-    "range": 25,
+    "range": 0,
+    "shape": [ "cone", { "half_angle": 5, "length": 45 } ],
     "dispersion": 200,
     "recoil": 400000,
     "count": 1,
@@ -528,7 +530,7 @@
       "recoil": 0.75,
       "dispersion": 0.75
     },
-    "extend": { "effects": [ "CUSTOM_EXPLOSION" ] },
+    "extend": { "effects": [ "CUSTOM_EXPLOSION", "NO_PENETRATE_OBSTACLES" ] },
     "explode_in_fire": true,
     "explosion": { "damage": 250, "radius": 10 }
   },
@@ -564,7 +566,7 @@
     "dispersion": 800,
     "recoil": 800000,
     "count": 1,
-    "effects": [ "COOKOFF", "RECYCLED", "MININUKE_MOD" ]
+    "effects": [ "COOKOFF", "RECYCLED", "MININUKE_MOD", "NO_PENETRATE_OBSTACLES" ]
   },
   {
     "type": "GENERIC",
