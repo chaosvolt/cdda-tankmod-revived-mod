@@ -83,11 +83,23 @@
   {
     "type": "vehicle_group",
     "id": "tankmod_garage_restoration",
-    "vehicles": [ [ "military_cargo_truck", 10 ], [ "humvee", 15 ], [ "whillys_mb", 10 ], [ "whillys_mb_display", 15 ], [ "tank_m60_patton", 25 ], [ "tank_m60_patton_mothballed", 25 ] ]
+    "vehicles": [
+      [ "military_cargo_truck", 10 ],
+      [ "humvee", 15 ],
+      [ "whillys_mb", 10 ],
+      [ "whillys_mb_display", 15 ],
+      [ "tank_m60_patton", 25 ],
+      [ "tank_m60_patton_mothballed", 25 ]
+    ]
   },
   {
     "type": "vehicle_group",
     "id": "military_display_vehicles",
     "vehicles": [ [ "tank_m60_patton_mothballed", 100 ] ]
+  },
+  {
+    "type": "vehicle_group",
+    "id": "lake_boats",
+    "vehicles": [ [ "CG_cutter_25mm", 50 ] ]
   }
 ]
