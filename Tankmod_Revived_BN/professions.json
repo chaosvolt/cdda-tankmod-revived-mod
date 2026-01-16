@@ -12,6 +12,8 @@
     "description": "You were in charge of driving the tank, but without a commander it's a lot harder to get a clear picture of what's around you.",
     "points": 4,
     "skills": [
+      { "level": 1, "name": "swimming" },
+      { "level": 1, "name": "firstaid" },
       { "level": 4, "name": "driving" },
       { "level": 1, "name": "mechanics" },
       { "level": 2, "name": "gun" },
@@ -39,7 +41,13 @@
     "name": "Tank Gunner",
     "description": "You were responsible for aiming and firing the main gun, but now you have no one left to spot targets for you.",
     "points": 4,
-    "skills": [ { "level": 4, "name": "launcher" }, { "level": 3, "name": "gun" }, { "level": 3, "name": "rifle" } ],
+    "skills": [
+      { "level": 1, "name": "swimming" },
+      { "level": 1, "name": "firstaid" },
+      { "level": 4, "name": "launcher" },
+      { "level": 3, "name": "gun" },
+      { "level": 3, "name": "rifle" }
+    ],
     "items": {
       "both": {
         "items": [ "pants_army", "socks", "boots_combat", "wristwatch", "gloves_tactical", "helmet_army", "jacket_army", "webbing_belt" ],
@@ -63,6 +71,8 @@
     "description": "Your job was to help the main gunner with loading, now you'll have to do all the work yourself.",
     "points": 3,
     "skills": [
+      { "level": 1, "name": "swimming" },
+      { "level": 1, "name": "firstaid" },
       { "level": 3, "name": "mechanics" },
       { "level": 1, "name": "launcher" },
       { "level": 2, "name": "gun" },
@@ -91,6 +101,7 @@
     "description": "Your role was to coordinate the tank crew's actions and spot targets, a job made significantly harder by everyone else being either dead or MIA.",
     "points": 5,
     "skills": [
+      { "level": 1, "name": "swimming" },
       { "level": 3, "name": "survival" },
       { "level": 2, "name": "firstaid" },
       { "level": 1, "name": "driving" },
