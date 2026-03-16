@@ -45,7 +45,7 @@
     "time": "16 m",
     "book_learn": [ [ "textbook_launcher", 6 ], [ "recipe_bullets", 7 ], [ "textbook_anarch", 8 ] ],
     "charges": 1,
-    "using": [ [ "welding_standard", 5 ], [ "steel_tiny", 1 ] ],
+    "using": [ [ "welding_standard", 5 ], [ "steel_chunk_any", 1 ] ],
     "qualities": [ { "id": "WRENCH", "level": 1 } ],
     "components": [
       [ [ "25mm_casing", 1 ] ],
@@ -67,7 +67,7 @@
     "time": "20 m",
     "book_learn": [ [ "textbook_launcher", 6 ], [ "recipe_bullets", 7 ], [ "textbook_anarch", 8 ] ],
     "charges": 1,
-    "using": [ [ "welding_standard", 5 ], [ "steel_tiny", 1 ] ],
+    "using": [ [ "welding_standard", 5 ], [ "steel_chunk_any", 1 ] ],
     "qualities": [ { "id": "WRENCH", "level": 1 } ],
     "components": [
       [ [ "25mm_casing", 1 ] ],
@@ -88,7 +88,7 @@
     "difficulty": 6,
     "time": "90 m",
     "book_learn": [ [ "textbook_launcher", 6 ], [ "textbook_anarch", 8 ] ],
-    "using": [ [ "blacksmithing_standard", 2 ], [ "steel_tiny", 2 ] ],
+    "using": [ [ "blacksmithing_standard", 2 ], [ "steel_chunk_any", 2 ] ],
     "qualities": [ { "id": "CHISEL", "level": 3 } ],
     "tools": [ [ [ "swage", -1 ] ] ],
     "components": [ [ [ "120mm_case_base", 1 ] ] ]
@@ -489,9 +489,9 @@
     "tools": [ [ [ "swage", -1 ], [ "small_repairkit", -1 ], [ "large_repairkit", -1 ] ] ],
     "charges": 1,
     "components": [
-      [ [ "copper", 5 ], [ "cartridgebrass", 10 ], [ "aluminum_foil", 10 ] ],
+      [ [ "copper", 5 ], [ "scrap_brass", 10 ], [ "aluminum_foil", 10 ] ],
       [ [ "cable", 2 ] ],
-      [ [ "gunpowder", 2 ], [ "chem_black_powder", 4 ], [ "chem_match_head_powder", 8 ], [ "chem_hmtd", 3 ] ]
+      [ [ "gunpowder", 2 ], [ "chem_black_powder", 4 ], [ "chem_hmtd", 3 ] ]
     ]
   },
   {
@@ -511,7 +511,7 @@
     "tools": [ [ [ "swage", -1 ], [ "small_repairkit", -1 ], [ "large_repairkit", -1 ] ] ],
     "charges": 1,
     "components": [
-      [ [ "copper", 10 ], [ "cartridgebrass", 20 ], [ "aluminum_foil", 20 ] ],
+      [ [ "copper", 10 ], [ "scrap_brass", 20 ], [ "aluminum_foil", 20 ] ],
       [
         [ "smpistol_primer", 1 ],
         [ "lgpistol_primer", 1 ],
@@ -519,7 +519,7 @@
         [ "lgrifle_primer", 1 ],
         [ "shotgun_primer", 1 ]
       ],
-      [ [ "gunpowder", 4 ], [ "chem_black_powder", 8 ], [ "chem_match_head_powder", 16 ], [ "chem_hmtd", 6 ] ]
+      [ [ "gunpowder", 4 ], [ "chem_black_powder", 8 ], [ "chem_hmtd", 6 ] ]
     ]
   },
   {
