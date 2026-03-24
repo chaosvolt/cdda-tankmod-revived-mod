@@ -1,8 +1,8 @@
-# Tankmod: Revived, a vehicle and content mod for Cataclysm DDA and BN
+# Tankmod: Revived, a vehicle and content mod for Cataclysm DDA, now part of mainline BN
 
-The official replacement to my old Tanks And Other Vehicles mod, for Cataclysm: Dark Days Ahead and Cataclysm: Bright Nights. Formerly Dependent upon Vehicle Additions Pack, formerly an in-repo mod and now being maintained as a third-party mod with no need for dependency upon other mods.
+The official replacement to my old Tanks And Other Vehicles mod, for Cataclysm: Dark Days Ahead, and formerly also for Cataclysm: Bright Nights before it was officially mainlined.
 
-If you are using Dark Days Ahead, place the included Tankmod_Revived folder in your data/mods folder. If you are using the Bright Nights fork, use the Tankmod_Revived_BN folder instead. In either case it is recommended that, if updating the mod, to delete the older version of the folder rather than just dumping the new one onto the old one.
+If you are using Dark Days Ahead, place the included Tankmod_Revived folder in your data/mods folder. If you are using the Bright Nights fork, you no longer have to do anything at all, as the contents of this mod are now officially a part of the base game. :D
 
 Notable changes from the last in-repo version of Tankmod:
 1. The main battle tank, self-propelled howitzer, and infantry fighting vehicle have been overhauled, more closely modeled after their real-world counterparts (which they've now been named after). Gone are the odd, spacious Merkava-like layouts, in favor of designs that better mimic the M1 Abrams, M109 howitzer, and M2 Bradley.
@@ -13,9 +13,3 @@ Notable changes from the last in-repo version of Tankmod:
 6. Rebalanced and updated vehicle groups. Tanks and such should generally only spawn in vehicle groups where other military vehicles can be found, and generally have more sensible weights.
 7. The atomic mini-tank and its accompanying 120m autoloading gun have been re-added as a solar-electric design, and its vehicle name makes it clear this is a fictional design, in contrast to most of the other additions based off real-world vehicles.
 8. Occasional spawns of an alternative main battle tank based off the M60 Patton, implied to have been brought out of storage and hastily rearmed to supplement existing forces. You also have a decent chance of finding some that weren't yet fully kitted out.
-
-Planned future features:
-1. Reimplementing the light tank, most likely to be based off the M551 Sheridan and thus will likely use 152mm TOW instead of a tank cannon, or possibly a design based on the revived M8 that are evidently re-entering military trials.
-2. Possibly the revival of the mobile gun system as the 105mm Stryker variant.
-3. A 155mm towed howitzer might show up as well, likely in dedicated spawn locations implying hastily set up positions, the same use case that 105mm howitzers will see.
-4. Naval and aircraft use of 25mm. Patrol boats might become a rare spawn at docks, some crashed aircraft might have the 25mm autocannon, etc.

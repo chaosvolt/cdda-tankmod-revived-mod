@@ -8,6 +8,7 @@
     "description": "The intended successor of my older, obsoleted Tanks and Other Vehicles mod.",
     "version": "BN version, update 1/15/2026",
     "category": "vehicles",
+    "obsolete": true,
     "dependencies": [ "bn" ]
   }
 ]
