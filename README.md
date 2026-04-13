@@ -1,5 +1,7 @@
 # Tankmod: Revived, a vehicle and content mod for Cataclysm DDA, now part of mainline BN
 
+**IMPORTANT: This mod will be depecriated entirely, and the repo deleted, after the next Stable release of Cataclysm: Bright Nights! Due to difficulties maintaining the DDA versions of my mod as a result of frequent breaking changes on their end and having moved on from playing DDA itself, I do not have any interest in maintaining the DDA version of a mod they long ago obsoleted and deleted from their repo, as I have enough mods I need to keep up to date and not enough time these days to do so.**
+
 The official replacement to my old Tanks And Other Vehicles mod, for Cataclysm: Dark Days Ahead, and formerly also for Cataclysm: Bright Nights before it was officially mainlined.
 
 If you are using Dark Days Ahead, place the included Tankmod_Revived folder in your data/mods folder. If you are using the Bright Nights fork, you no longer have to do anything at all, as the contents of this mod are now officially a part of the base game. :D
